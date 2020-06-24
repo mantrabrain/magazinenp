@@ -1,0 +1,21 @@
+.site-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.site-title a {
+  color: #333;
+  text-decoration: none;
+}
+.site-title a:hover,
+.site-title a:focus,
+.site-title a:active {
+  color: $primary_color;
+}
+.site-description {
+  font-size: 15px;
+  margin: 0;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter:alpha(opacity=70);
+}

@@ -1,0 +1,77 @@
+.wp-custom-header {
+  line-height: 0;
+  position: relative;
+  background-color: #000;
+}
+.wp-custom-header img,
+.wp-custom-header iframe,
+.wp-custom-header video {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .admin-bar .wp-custom-header iframe,
+  .admin-bar .wp-custom-header video {
+    height: calc(100vh - 32px);
+  }
+  .wp-custom-header iframe,
+  .wp-custom-header video {
+    height: 100vh;
+  }
+}
+.wp-custom-header .wp-custom-header-video-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.wp-custom-header .wp-custom-header-video-button:hover,
+.wp-custom-header .wp-custom-header-video-button:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.wp-custom-header-video-play,
+.wp-custom-header-video-pause {
+  font-size: 0;
+  line-height: 0;
+}
+.wp-custom-header-video-play:before,
+.wp-custom-header-video-pause:before {
+  font-family: 'Font Awesome 5 Free';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.5);
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.wp-custom-header-video-play:hover:before,
+.wp-custom-header-video-pause:hover:before {
+  color: rgba(255, 255, 255, 0.8);
+}
+.wp-custom-header-video-play:before {
+  content: '\f04b';
+}
+.wp-custom-header-video-pause:before {
+  content: '\f04c';
+}
+@import "header/top";
+@import "header/mid";
+@import "header/social";
+@import "header/search-form";
+@import "header/nav";
+@import "header/top-stories";
+@import "header/popular-tags";

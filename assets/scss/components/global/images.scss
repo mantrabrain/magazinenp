@@ -1,0 +1,55 @@
+figure {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+img.size-full,
+img.size-large {
+  max-width: 100%;
+  height: auto;
+}
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img#wpstats {
+  display: none;
+}
+.img-border {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Caption */
+.wp-caption {
+  margin-bottom: 20px;
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.wp-caption a {
+  position: relative;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  font-style: italic;
+}
+.wp-caption .wp-caption-text {
+  margin-bottom: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

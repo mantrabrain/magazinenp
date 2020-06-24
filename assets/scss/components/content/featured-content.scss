@@ -1,0 +1,34 @@
+.post.sticky .entry-header {
+  position: relative;
+}
+.post.sticky .entry-header .entry-title {
+  padding-right: 35px;
+}
+.post.sticky .entry-header:before {
+  font-family: 'Font Awesome 5 Free';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f08d";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 26px;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  background-color: $primary_color;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.single-post .post.sticky .entry-header .entry-title {
+  padding-right: 0;
+}
+.single-post .post.sticky .entry-header .entry-meta.category-meta {
+  padding-right: 35px;
+}
+.single-post .post.sticky .entry-header:before {
+  top: 0;
+}

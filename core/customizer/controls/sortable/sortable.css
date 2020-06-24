@@ -1,0 +1,65 @@
+.magazinenp-sortable-control .magazinenp-sortable-item {
+    background: #ffffff;
+    margin-bottom: 10px;
+    border: 1px solid #7b7b7b;
+    position: relative;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item[data-disable="1"] {
+
+    border: 1px dashed #aaa;
+    color: #aaa !important;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item[data-disable="1"] .magazinenp-sortable-item-heading {
+    color: #aaa !important;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item .rp-show-icon {
+
+    line-height: 34px;
+    margin-right: 10px;
+    font-size: 16px;
+    height: 33px;
+    width: 41px;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item[data-disable="1"] .rp-show-icon:before {
+    content: "\f530";
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item i.dashicons.dashicons-menu {
+    position: absolute;
+    right: 0;
+    height: 33px;
+    width: 41px;
+    top: 0;
+    z-index: 99;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item label.magazinenp-sortable-show {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 1px solid #dddddd;
+    width: 41px;
+    text-align: center;
+}
+
+.magazinenp-sortable-control .magazinenp-sortable-item-heading {
+    background: #FFF;
+    padding: 10px;
+    position: relative;
+    display: block;
+    line-height: 1;
+    font-size: 1em;
+    cursor: pointer;
+    padding-left: 50px;
+    color: #000;
+}
+
+.magazinenp-sortable-control.hide-disable-option .magazinenp-sortable-item-heading {
+    padding-left: 20px;
+}

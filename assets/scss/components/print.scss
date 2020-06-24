@@ -1,0 +1,50 @@
+@media print {
+  /* Hide elements */
+  form,
+  button,
+  input,
+  select,
+  textarea,
+  .header-image,
+  .navbar-collapse,
+  .main-navigation,
+  a.readmore,
+  .page-links,
+  .edit-link,
+  .post-navigation,
+  .posts-navigation,
+  .navigation.post-navigation,
+  .navigation.pagination,
+  .page-links,
+  .pagination.navigation,
+  .site-content .widget-area,
+  .comments-pagination,
+  .comment-respond,
+  .comment-edit-link,
+  .comment-reply-link,
+  .comment-metadata .edit-link,
+  .pingback .edit-link,
+  .site-footer {
+    display: none;
+  }
+  .fixed-top {
+    position: relative;
+  }
+
+  /* Layout */
+  .site-content {
+    padding: 20px 0;
+  }
+  .site-branding {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Colors */
+  body,
+  .site,
+  .navbar,
+  .page-title-wrap {
+    background: none;
+  }
+}

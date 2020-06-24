@@ -1,0 +1,114 @@
+.site-footer {
+	position: relative;
+	z-index: 10;
+
+	&.has-background {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
+
+.site-footer .widget-area {
+	color: #bbbbbb;
+	background-color: $widget_area_background_color;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.site-footer.has-background .widget-area {
+
+	background-color: rgba(18, 16, 38, 0.65);
+
+}
+
+.site-footer .widget {
+	padding: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.site-footer .mnp-social-profiles {
+	margin: 0;
+	padding: 0;
+}
+
+.site-footer .widget-subscribe .form-control,
+.site-footer .widget-subscribe .btn {
+	padding: 10px;
+}
+
+.site-footer .widget ul li {
+	margin-bottom: 6px;
+}
+
+.site-footer .widget ul li:last-child {
+	margin-bottom: 0;
+}
+
+.site-footer caption,
+.site-footer .widget ul li a,
+.site-footer .widget_tag_cloud a {
+	color: #bbbbbb;
+}
+
+.site-footer .widget ul li a:hover,
+.site-footer .widget_tag_cloud a:hover,
+.site-footer .widget_categories .current-cat a,
+.site-footer .widget_nav_menu ul li.current_page_item > a,
+.site-footer .widget_nav_menu ul li.current_page_ancestor > a,
+.site-footer .widget_nav_menu ul li.current-menu-item > a,
+.site-footer .widget_nav_menu ul li.current-menu-ancestor > a,
+.site-footer .widget_pages ul li.current_page_item > a,
+.site-footer .widget_pages ul li.current_page_ancestor > a {
+	color: #ffffff;
+}
+
+/* Site Info */
+.bottom-footer {
+	background-color: $bottom_footer_background_color;
+	padding: 15px 0;
+	text-align: center;
+	color: #888888;
+}
+
+.site-footer {
+	&.has-background {
+		.bottom-footer {
+			background: rgba(9, 8, 24, 0.9);
+		}
+	}
+}
+
+.bottom-footer a,
+.bottom-footer a:hover {
+	color: #cccccc;
+}
+
+.bottom-footer .copyright a:hover {
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.bottom-footer .mnp-social-profiles,
+.bottom-footer .copyright {
+	text-align: center;
+}
+
+.bottom-footer .mnp-social-profiles ul li a {
+	font-size: calc(15px + 3px);
+}
+
+.bottom-footer .copyright .custom-content {
+	display: inline-block;
+	padding-right: 8px;
+	margin-bottom: 8px;
+}
+
+.bottom-footer .copyright div:last-child:after {
+	content: normal;
+}

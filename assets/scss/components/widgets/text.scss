@@ -1,0 +1,32 @@
+.widget_text p:last-child{
+  margin-bottom: 0;
+}
+.widget_text p:before,
+.widget_text p:after {
+  content: "";
+  display: table;
+}
+.widget_text p:after {
+  clear: both;
+}
+.widget_text p img {
+  margin-bottom: 15px;
+}
+.widget_text p img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.widget_text p img.alignnone {
+  display: block;
+}
+.widget_text p img.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 4px;
+}
+.widget_text p img.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}

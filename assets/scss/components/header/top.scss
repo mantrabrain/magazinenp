@@ -1,0 +1,72 @@
+.mnp-top-header {
+  position: relative;
+  font-size: 13px;
+  background-color: $top_header_background_color;
+  overflow: hidden;
+  min-height: 30px;
+  color: #cccccc;
+}
+.mnp-top-header .mnp-top-header-nav-menu-toggle {
+  display: none;
+}
+
+.mnp-top-header ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.mnp-top-header ul li {
+  float: left;
+  position: relative;
+  list-style: none;
+  color: #cccccc;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.mnp-top-header ul li:last-child {
+  padding-right: 0;
+}
+.mnp-top-header .mnp-social-profiles {
+  margin-bottom: 0;
+}
+.mnp-top-header .mnp-social-profiles ul li a,
+.mnp-top-header .mnp-top-header-nav ul li a {
+  display: inline-block;
+  color: #cccccc;
+}
+.mnp-top-header .mnp-top-header-nav ul li a:hover,
+.mnp-top-header .mnp-top-header-nav ul li a:focus,
+.mnp-top-header .mnp-top-header-nav ul li.current-menu-item a {
+  text-decoration: none;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.mnp-top-header .mnp-top-header-nav li + li:before {
+  content: "|";
+  display: inline-block;
+  margin-right: 10px;
+}
+.mnp-top-header .mnp-social-profiles ul {
+  margin-left: 0;
+  margin-right: 0;
+}
+.mnp-top-header .mnp-social-profiles ul li {
+  padding: 0 0 0 1px;
+}
+.mnp-top-header .mnp-social-profiles ul li a {
+  font-size: calc(13px + 2px);
+  position: relative;
+  padding: 9px 12px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.17);
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.mnp-top-header .mnp-social-profiles ul li a:hover,
+.mnp-top-header .mnp-social-profiles ul li a:focus {
+  opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=100);
+}

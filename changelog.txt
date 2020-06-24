@@ -1,0 +1,23 @@
+= 1.0.6 | 2020/06/22 =
+- WooCommerce support
+- RTL issue fixed
+- Minor design issue fixed
+= 1.0.5 | 2020/06/15 =
+- Column widget post count issue fixed
+- Related Post wrapper issue fixed
+- Add filter on footer
+- Theme Issue fixed ( reported by review team )
+
+= 1.0.4 | 2020/06/11 =
+- Minor fixes
+- About Page & TGMPA added
+
+= 1.0.3 |  =
+- wp_nav_link issue fixed
+
+= 1.0.2 | 2020/06/06 =
+- Bug fix & minor fixes
+
+= 1.0.1 | 2020/05/30 =
+- Bug fix & minor fixes
+

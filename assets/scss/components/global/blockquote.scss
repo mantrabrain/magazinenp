@@ -1,0 +1,33 @@
+blockquote {
+  font-size: 19px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  color: #333333;
+  font-weight: 700;
+}
+.blockquote-footer,
+blockquote footer {
+  font-size: 15px;
+  font-weight: 400;
+}
+blockquote cite {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+blockquote:before {
+  font-family: 'Font Awesome 5 Free';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f10d";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #555555;
+  font-size: 24px;
+  opacity: 0.4;
+  -moz-opacity: 0.4;
+  filter:alpha(opacity=40);
+  font-weight: 600;
+}

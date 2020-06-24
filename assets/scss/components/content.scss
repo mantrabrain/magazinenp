@@ -1,0 +1,43 @@
+.site-content {
+  padding-top: 30px;
+}
+.post,
+.type-attachment {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.post-col .post,
+.post-col .page,
+.site-main .post-col .page {
+  padding: 15px 15px 7px;
+  margin-bottom: 14px;
+  min-height: calc(100% - 14px);
+}
+.post-col .post .entry-content p,
+.post-col .page .entry-content p,
+.site-main .post-col .entry-content .page p {
+  margin-bottom: 10px;
+}
+.post-wrap {
+  margin-bottom: 16px;
+}
+
+@import "content/featured-image";
+@import "content/featured-content";
+@import "content/entry-header";
+@import "content/entry-title";
+@import "content/entry-meta";
+@import "content/entry-content";
+@import "content/gallery";
+@import "content/pagination";
+@import "content/attachments";
+@import "content/comments";
+@import "content/pages";
+@import "content/support/bbpress";
+@import "content/support/woo";
+@import "content/support/jetpack";
+@import "content/support/gutenberg";

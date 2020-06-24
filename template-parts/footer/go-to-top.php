@@ -1,0 +1,1 @@
+<div class="back-to-top"><a title="<?php esc_attr_e('Go to Top', 'magazinenp'); ?>" href="#masthead"></a></div>

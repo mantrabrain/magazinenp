@@ -1,0 +1,24 @@
+.widget_recent_entries ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+}
+.widget_recent_entries ul li:first-child {
+  padding-top: 0;
+}
+.widget_recent_entries ul li:last-child {
+  border-bottom: none;
+}
+.widget_recent_entries .post-date {
+  display: block;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=80);
+  padding-top: 5px;
+}
+.site-footer .widget_recent_entries .post-date {
+  color: rgba(170, 170, 170, 0.8);
+}
+.site-footer .widget.widget_recent_entries ul li {
+  margin-bottom: 0;
+  border-color: rgba(255, 255, 255, 0.1);
+}

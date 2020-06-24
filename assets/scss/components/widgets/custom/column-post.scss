@@ -1,0 +1,61 @@
+/* widget-area-control */
+.widget.magazinenp-column-post-widget {
+	background-color: #ffffff;
+	padding: 15px 15px 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.widget.magazinenp-column-post-widget{
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  margin-bottom: 16px;
+}
+.site-footer .widget-area .magazinenp-column-post-widget {
+  margin-bottom: 20px;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed,
+.site-footer .widget-area .magazinenp-column-post-widget {
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  padding: 0;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed {
+  margin-bottom: 10px;
+}
+
+.site-footer .widget-area .magazinenp-column-post-widget .col-md-6 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .mnp-post-image-wrap {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-title {
+  font-size: calc(15px + 1px);
+  font-weight: 400;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-title,
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-title a,
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-meta,
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-meta a {
+  color: #bbbbbb;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-title a:hover,
+.site-footer .widget-area .magazinenp-column-post-widget .mnp-post-boxed .entry-meta a:hover {
+  color: #ffffff;
+}
+.site-footer .widget-area .magazinenp-column-post-widget .category-meta {
+  display: none;
+}

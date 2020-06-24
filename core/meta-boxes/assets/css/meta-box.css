@@ -1,0 +1,88 @@
+#magazinenp-page-setting .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#magazinenp-page-setting #page-settings-tabs-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#magazinenp-page-setting .magazinenp-ui-nav {
+    width: 180px;
+    list-style-type: none;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+}
+
+#magazinenp-page-setting .magazinenp-ui-nav li {
+    margin: 0;
+    outline: none;
+}
+
+#magazinenp-page-setting .magazinenp-ui-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    color: #252525;
+}
+
+#magazinenp-page-setting .magazinenp-ui-nav li.ui-tabs-active a {
+    background: #fff;
+    margin-right: -1px;
+}
+
+#magazinenp-page-setting .magazinenp-ui-content {
+    padding: 0 20px;
+    width: calc(100% - 180px);
+}
+
+#magazinenp-page-setting .magazinenp-ui-content .options-group {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#magazinenp-page-setting .magazinenp-ui-content .magazinenp-ui-desc,
+#magazinenp-page-setting .magazinenp-ui-content .magazinenp-ui-field {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+}
+
+#magazinenp-page-setting .magazinenp-ui-content .magazinenp-ui-desc > label {
+    display: block;
+}
+
+#magazinenp-page-setting .magazinenp-ui-content .mnp-label img {
+    width: 120px;
+}
+
+#magazinenp-page-setting .magazinenp-ui-content .mnp-label input[type="radio"] {
+    display: none;
+}
+
+#magazinenp-page-setting .mnp-label input:checked + img {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+    border: 2px solid #13a1dc!important;
+}
+
+#magazinenp-page-setting .mnp-layout-template {
+    display: flex;
+}
+
+#magazinenp-page-setting .mnp-layout-template label.mnp-label {
+    display: block;
+    padding: 5px;
+}
+
+#magazinenp-page-setting .mnp-layout-template label.mnp-label img {
+    border: 2px solid #aaa;
+}

@@ -1,0 +1,31 @@
+.mnp-popular-tags-wrap {
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  padding: 5px 0;
+  .popular-tags-title-wrap {
+    float: left;
+  }
+  .popular-tags-tag-items {
+    float: left;
+    margin-left: 10px;
+  }
+  ul.tags-list {
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      list-style: none;
+      margin-right: 10px;
+      a {
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        color: $primary_color;
+        background: #f3eeee;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+}

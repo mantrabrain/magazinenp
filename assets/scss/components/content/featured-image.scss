@@ -1,0 +1,13 @@
+.post-featured-image {
+  margin-bottom: 20px;
+  position: relative;
+}
+.post-col .post-featured-image {
+  margin: -15px -15px 15px;
+}
+.post-featured-image.page-single-img-wrap {
+  margin: -25px -25px 25px;
+}
+.post .entry-header + .post-featured-image {
+  margin-top: 0;
+}

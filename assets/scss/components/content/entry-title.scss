@@ -1,0 +1,21 @@
+.entry-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 10px;
+}
+.entry-title a {
+  color: #333333;
+}
+.entry-title a:hover,
+.entry-title a:focus {
+  color: $primary_color;
+  text-decoration: none;
+}
+.type-attachment .entry-title {
+  margin-bottom: 30px;
+}
+.post-col .entry-title {
+  font-size: 19px;
+  margin-bottom: 5px;
+}

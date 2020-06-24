@@ -1,0 +1,83 @@
+.mnp-social-profiles {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.mnp-social-profiles ul {
+  margin-left: -7px;
+  margin-right: -7px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.mnp-social-profiles ul li {
+  float: left;
+  padding-right: 7px;
+  padding-left: 7px;
+  list-style: none;
+}
+
+.mnp-social-profiles ul li a {
+  font-size: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.mnp-social-profiles ul li a:hover,
+.mnp-social-profiles ul li a:focus {
+  text-decoration: none;
+  opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.mnp-top-header .mnp-social-profiles.official {
+  .fa-facebook-f {
+    background: #3b5998
+  }
+  .fa-linkedin {
+    background: #3399CC
+  }
+  .fa-twitter {
+    background: #00aced
+  }
+  .fa-instagram {
+    background: #3f729b
+  }
+  .fa-pinterest {
+    background: #c8232c
+  }
+  .fa-youtube {
+    background: #c4302b
+  }
+}
+
+.bottom-footer .mnp-social-profiles.official {
+  .fa-facebook-f {
+    color: #3b5998
+  }
+  .fa-linkedin {
+    color: #3399CC
+  }
+  .fa-twitter {
+    color: #00aced
+  }
+  .fa-instagram {
+    color: #3f729b
+  }
+  .fa-pinterest {
+    color: #c8232c
+  }
+  .fa-youtube {
+    color: #c4302b
+  }
+}

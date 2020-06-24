@@ -1,0 +1,1642 @@
+# <!=Copyright (C) 2020 mantrabrain
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: MagazineNP 1.0.6\n"
+"Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
+"POT-Creation-Date: 2020-06-24 10:35:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: comments.php:35
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: core/class-magazinenp-core.php:64
+msgid "Primary"
+msgstr ""
+
+#: core/class-magazinenp-core.php:65
+msgid "Top Bar Navigation"
+msgstr ""
+
+#: core/class-magazinenp-loops.php:80
+msgid "Previous"
+msgstr ""
+
+#: core/class-magazinenp-loops.php:81
+msgid "Next"
+msgstr ""
+
+#: core/class-magazinenp-loops.php:121
+#. translators: %s: search query.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: core/class-magazinenp-loops.php:136
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: core/class-magazinenp-loops.php:140
+msgid ""
+"It looks like nothing was found at this location. May be please check the "
+"URL for typing errors or start a new search to find the page you are "
+"looking for."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:18
+msgid "Right Sidebar"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:20
+msgid "Shows widgets at Right Side."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:31
+msgid "Shows widgets at Left Side."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:40
+msgid "Home Page Content Area"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:42
+msgid "Shows widgets on Home Page Template Content Area."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:51
+msgid "Home Page Sidebar Area"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:53
+msgid "Shows widgets on Home Page Template Sidebar Area."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:62
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:64
+msgid "Shows widgets at Footer Widget Area 1."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:73
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:75
+msgid "Shows widgets at Footer Widgets area 2."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:84
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:86
+msgid "Shows widgets at Footer Widget Area 3."
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:95
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: core/class-magazinenp-widgets.php:97
+msgid "Shows widgets at Footer Widget Area 4."
+msgstr ""
+
+#: core/customizer/controls/class-magazinenp-customizer-control-sortable.php:86
+msgid "Show"
+msgstr ""
+
+#: core/customizer/controls/class-magazinenp-customizer-control-switch.php:21
+msgid "on"
+msgstr ""
+
+#: core/customizer/controls/class-magazinenp-customizer-control-switch.php:22
+msgid "off"
+msgstr ""
+
+#: core/customizer/core.php:50
+#: core/customizer/sections/header/popular-tags.php:5 core/functions.php:95
+msgid "Popular Tags"
+msgstr ""
+
+#: core/customizer/core.php:54
+msgid "News Flash"
+msgstr ""
+
+#: core/customizer/core.php:95
+msgid "Popular Stories"
+msgstr ""
+
+#: core/customizer/core.php:114
+#: core/customizer/sections/single-post/related-post.php:5
+msgid "Related Posts"
+msgstr ""
+
+#: core/customizer/core.php:127
+msgid "Copyright &copy; All rights reserved"
+msgstr ""
+
+#: core/customizer/panels/theme-panel.php:5
+msgid "Theme Options"
+msgstr ""
+
+#: core/customizer/sections/base/breadcrumb.php:4
+msgid "Breadcrumbs"
+msgstr ""
+
+#: core/customizer/sections/base/breadcrumb.php:24
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: core/customizer/sections/base/date.php:4
+#: core/customizer/sections/single-post/related-post.php:146
+msgid "Date"
+msgstr ""
+
+#: core/customizer/sections/base/date.php:19
+msgid "Date Format"
+msgstr ""
+
+#: core/customizer/sections/base/date.php:24
+#: core/customizer/sections/base/social.php:25
+msgid "Theme Default"
+msgstr ""
+
+#: core/customizer/sections/base/date.php:25
+msgid "WordPress Default"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:4
+msgid "Layouts"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:23
+msgid "Sidebar Layout"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:46
+msgid "Layout Style"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:51
+msgid "Boxed"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:52
+msgid "Full Width "
+msgstr ""
+
+#: core/customizer/sections/base/mnp-cat-color.php:4
+msgid "Category Color"
+msgstr ""
+
+#: core/customizer/sections/base/sidebars.php:5
+#: core/info/about/class-magazinenp-about.php:470
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:106
+msgid "Sidebar"
+msgstr ""
+
+#: core/customizer/sections/base/sidebars.php:25
+msgid "Enable/Disable Sticky Sidebar"
+msgstr ""
+
+#: core/customizer/sections/base/social.php:4
+msgid "Social"
+msgstr ""
+
+#: core/customizer/sections/base/social.php:21
+msgid " Social Profile Style"
+msgstr ""
+
+#: core/customizer/sections/base/social.php:26
+msgid "Official Social Color"
+msgstr ""
+
+#: core/customizer/sections/base/social.php:44
+msgid " URL"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:4
+#: core/widgets/magazinenp-block-post-widget.php:20
+#: core/widgets/magazinenp-column-post-widget.php:19
+#: core/widgets/magazinenp-grid-post-widget.php:20
+msgid "Title"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:19
+msgid "Title Layout"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:24
+msgid "Style 1"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:25
+msgid "Style 2"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:26
+msgid "Style 3"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:27
+msgid "Style 4"
+msgstr ""
+
+#: core/customizer/sections/base/title.php:28
+msgid "Style 5"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/content/main.php:17
+#: core/customizer/sections/featured/banner/post-col-1.php:83
+#: core/customizer/sections/featured/banner/post-col-2.php:84
+#: core/customizer/sections/featured/banner/slider.php:84
+#: core/customizer/sections/featured/post-block/settings.php:104
+msgid "Show Category"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/content/main.php:39
+#: core/customizer/sections/featured/banner/post-col-1.php:105
+#: core/customizer/sections/featured/banner/post-col-2.php:106
+#: core/customizer/sections/featured/banner/slider.php:106
+#: core/customizer/sections/featured/post-block/settings.php:126
+msgid "Show Post Meta"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/content/main.php:61
+msgid "Show Excerpt"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/content.php:4
+#: core/customizer/sections/single-post/content.php:6
+msgid "Content & Metas"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/pagination/main.php:14
+msgid "Pagination Style"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/pagination/main.php:19
+msgid "Numeric"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/pagination.php:4
+msgid "Pagination"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-1.php:18
+#: core/functions.php:138
+msgid "Post Column 1"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-1.php:33
+#: core/customizer/sections/featured/banner/post-col-2.php:33
+msgid "Heading"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-1.php:49
+#: core/customizer/sections/featured/banner/post-col-2.php:49
+#: core/customizer/sections/featured/banner/slider.php:51
+#: core/customizer/sections/featured/post-block/settings.php:71
+#: core/customizer/sections/header/ticker.php:37
+#: core/customizer/sections/single-post/related-post.php:53
+msgid "Show Latest Posts"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-1.php:50
+#: core/customizer/sections/featured/banner/post-col-2.php:50
+#: core/customizer/sections/featured/banner/slider.php:52
+#: core/customizer/sections/featured/post-block/settings.php:72
+#: core/customizer/sections/header/ticker.php:38
+#: core/customizer/sections/single-post/related-post.php:54
+msgid "Show Posts from Category"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-1.php:61
+#: core/customizer/sections/featured/banner/post-col-2.php:62
+#: core/customizer/sections/featured/banner/slider.php:63
+#: core/customizer/sections/featured/post-block/settings.php:83
+#: core/customizer/sections/header/ticker.php:51
+#: core/customizer/sections/single-post/related-post.php:79
+msgid "Choose Category"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/post-col-2.php:18
+#: core/functions.php:150
+msgid "Post Column 2"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/settings.php:18
+msgid "Show Banner Section"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/settings.php:33
+#: core/customizer/sections/featured/post-block/settings.php:34
+#: core/customizer/sections/header/popular-tags.php:32
+#: core/customizer/sections/header/ticker.php:64
+msgid "Display Option"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/settings.php:38
+#: core/customizer/sections/featured/post-block/settings.php:39
+#: core/customizer/sections/header/popular-tags.php:37
+#: core/customizer/sections/header/ticker.php:69
+msgid "Show on Homepage only"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/settings.php:39
+#: core/customizer/sections/featured/post-block/settings.php:40
+#: core/customizer/sections/header/popular-tags.php:38
+#: core/customizer/sections/header/ticker.php:70
+msgid "Show on Homepage & Blog Page"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/settings.php:59
+#: core/customizer/sections/featured/banner/settings.php:80
+msgid "Banner Ordering"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/slider.php:17
+msgid "Slider Options"
+msgstr ""
+
+#: core/customizer/sections/featured/banner/slider.php:34
+msgid "Slider Heading"
+msgstr ""
+
+#: core/customizer/sections/featured/banner.php:4
+msgid "Banner"
+msgstr ""
+
+#: core/customizer/sections/featured/post-block/settings.php:18
+msgid "Show Post Block Section"
+msgstr ""
+
+#: core/customizer/sections/featured/post-block/settings.php:54
+msgid "Post Block Heading"
+msgstr ""
+
+#: core/customizer/sections/featured/post-block.php:4
+msgid "Post Block"
+msgstr ""
+
+#: core/customizer/sections/footer/footer.php:9
+#: core/customizer/sections/header/mid.php:16
+msgid "Background Image"
+msgstr ""
+
+#: core/customizer/sections/footer/footer.php:30
+#: core/customizer/sections/header/top.php:49
+msgid "Show/Hide Social Profile"
+msgstr ""
+
+#: core/customizer/sections/footer/footer.php:49
+msgid "Copyright text"
+msgstr ""
+
+#: core/customizer/sections/header/bottom.php:5 core/functions.php:90
+#: core/info/about/class-magazinenp-about.php:450
+msgid "Main Header"
+msgstr ""
+
+#: core/customizer/sections/header/bottom.php:24
+msgid "Show Home Icon"
+msgstr ""
+
+#: core/customizer/sections/header/bottom.php:46
+msgid "Show Search Icon"
+msgstr ""
+
+#: core/customizer/sections/header/bottom.php:69
+msgid "Enable/Disable Sticky"
+msgstr ""
+
+#: core/customizer/sections/header/media.php:4
+msgid "Header Media"
+msgstr ""
+
+#: core/customizer/sections/header/mid.php:5 core/functions.php:85
+#: core/info/about/class-magazinenp-about.php:445
+msgid "Mid Bar"
+msgstr ""
+
+#: core/customizer/sections/header/mid.php:24
+msgid "Advertisement Image"
+msgstr ""
+
+#: core/customizer/sections/header/mid.php:32
+msgid "Advertisement Image Url"
+msgstr ""
+
+#: core/customizer/sections/header/ordering.php:4
+#: core/customizer/sections/header/ordering.php:22
+msgid "Header Ordering"
+msgstr ""
+
+#: core/customizer/sections/header/popular-tags.php:19
+msgid "Popular Tags Heading"
+msgstr ""
+
+#: core/customizer/sections/header/popular-tags.php:39
+#: core/customizer/sections/header/ticker.php:71
+msgid "Show on all pages"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:5 core/functions.php:100
+msgid "News Ticker"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:19
+msgid "News Ticker Heading"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:5 core/functions.php:79
+#: core/info/about/class-magazinenp-about.php:440
+msgid "Top Bar"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:25
+msgid "Show/Hide Date"
+msgstr ""
+
+#: core/customizer/sections/single-page/content.php:17
+msgid "Show Feature Image"
+msgstr ""
+
+#: core/customizer/sections/single-post/content.php:24
+msgid "Content  Ordering"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:25
+msgid "Show/Hide Related Posts"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:38
+msgid "Related Posts Heading"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:52
+msgid "Show Automatic Posts"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:66
+msgid "Related Posts Taxonomy"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:69
+#: core/functions.php:194 core/widgets/magazinenp-block-post-widget.php:38
+#: core/widgets/magazinenp-grid-post-widget.php:38
+msgid "Category"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:70
+#: core/functions.php:215 template-parts/parts/tags-meta.php:3
+msgid "Tags"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:97
+msgid "Related Posts Columns"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:122
+msgid "Related Posts Count"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:141
+msgid "Order by"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:145
+msgid "ID"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:157
+msgid "Order"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:161
+msgid "Asc"
+msgstr ""
+
+#: core/customizer/sections/single-post/related-post.php:162
+msgid "Desc"
+msgstr ""
+
+#: core/customizer/sections/theme-base-options.php:5
+msgid "Base (Global)"
+msgstr ""
+
+#: core/customizer/sections/theme-blog-archive-options.php:6
+#: core/info/about/class-magazinenp-about.php:455
+msgid "Blog/Archive"
+msgstr ""
+
+#: core/customizer/sections/theme-featured-options.php:5
+msgid "Featured Section"
+msgstr ""
+
+#: core/customizer/sections/theme-footer-options.php:6
+#: core/info/about/class-magazinenp-about.php:475
+msgid "Footer"
+msgstr ""
+
+#: core/customizer/sections/theme-header-options.php:6
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:55
+msgid "Header"
+msgstr ""
+
+#: core/customizer/sections/theme-home-page-options.php:17
+msgid "Theme Style Homepage"
+msgstr ""
+
+#: core/customizer/sections/theme-single-page-options.php:6
+#: core/info/about/class-magazinenp-about.php:465
+msgid "Single Page"
+msgstr ""
+
+#: core/customizer/sections/theme-single-post-options.php:6
+#: core/info/about/class-magazinenp-about.php:460
+msgid "Single Post"
+msgstr ""
+
+#: core/functions.php:30
+msgid "RIGHT SIDEBAR"
+msgstr ""
+
+#: core/functions.php:35
+msgid "LEFT SIDEBAR"
+msgstr ""
+
+#: core/functions.php:40
+msgid "NO SIDEBAR"
+msgstr ""
+
+#: core/functions.php:45
+msgid "FULL WIDTH"
+msgstr ""
+
+#: core/functions.php:144
+msgid "Slider"
+msgstr ""
+
+#: core/functions.php:189
+msgid "Featured Image"
+msgstr ""
+
+#: core/functions.php:200
+msgid "Post Title"
+msgstr ""
+
+#: core/functions.php:205
+msgid "Post Meta"
+msgstr ""
+
+#: core/functions.php:210
+msgid "Post Content"
+msgstr ""
+
+#: core/functions.php:285
+msgid "ago"
+msgstr ""
+
+#: core/functions.php:455
+msgid "Facebook"
+msgstr ""
+
+#: core/functions.php:461
+msgid "Twitter"
+msgstr ""
+
+#: core/functions.php:468
+msgid "Linkedin"
+msgstr ""
+
+#: core/functions.php:475
+msgid "Instagram"
+msgstr ""
+
+#: core/functions.php:482
+msgid "Youtube"
+msgstr ""
+
+#: core/functions.php:489
+msgid "Pinterest"
+msgstr ""
+
+#: core/functions.php:645 core/tgmpa/tgmpa-magazinenp.php:22
+msgid "Mantra Brain Starter Sites"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:32
+msgid "MagazineNP Options"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:205
+msgid ""
+"Thanks for installing %s. To fully take advantage of the best our theme can "
+"offer, click on get started "
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:220
+msgid " plugins"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:220
+msgid " plugin"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:226
+msgid "Clicking on get started will install & activate %s."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:229
+msgid "Get started with %s"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:242
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:50
+msgid "General"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:243
+#: core/info/about/class-magazinenp-about.php:376
+msgid "Changelog"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:261
+msgid "Learn more about MagazineNP theme &#187;"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:293
+msgid "Processing..."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "MagazineNP"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:410
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:415
+msgid "Global Layouts"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:420
+msgid "Theme Style Home"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:425
+msgid "Feature Slider/Banner"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:430
+msgid "Title Layouts"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:435
+msgid "Global Colors"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:486
+msgid "Links to Customizer Settings"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:515
+msgid "Join Mantra Brain Community!"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:517
+msgid ""
+"Join our facebook community group so that you can post question and help "
+"each other."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:519
+msgid "Join our facebook community group"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:532
+#: core/info/about/class-magazinenp-about.php:536
+msgid "MagazineNP Documentation"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:534
+msgid "MagazineNP theme documentations and tutorial."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:553
+msgid "Demo Import"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:556
+msgid ""
+"<strong>Mantra Brain Starter Sites</strong> is free WordPress plugin from "
+"which you can import ready made site within few clicks."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:583
+msgid "View Site Library / Install Demo"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:593
+msgid "Go to MagazineNP Options"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:603
+msgid "Install Importer Plugin"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:628
+msgid "Active Now"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:645
+msgid "Details"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:697
+msgid "Advanced Typography Customization"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:698
+msgid "Gives you creative control on typography for whole website."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:702
+msgid "Advanced Color Customization"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:703
+msgid "Advance color customization options."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:707
+msgid "Advanced Breadcrumb"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:708
+msgid "Change breadcrumb background image etc."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:712
+msgid "Mid Bar Layout ( Header Layout )"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:713
+msgid "Different type of header"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:716
+msgid "Archive Page Layout"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:717
+msgid "Layout for archive page."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:721
+msgid "Advanced Post Widget ( Post Master Widget)"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:722
+msgid "Most Advance Post Widget"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:726
+msgid "Two full width sidebars"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:727
+msgid "Full width sidebars before and after home page content area."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:731
+msgid "Footer Credit Link"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:732
+msgid "You can change or remove footer credit link."
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:736
+msgid "Footer Widget Area Column"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:737
+msgid "You can customize footer widget area column"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:741
+msgid "Premium Support"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:742
+msgid "Premium support"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:751
+msgid "MagazineNP Pro"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:757
+msgid "Upgrade Now &rarr;"
+msgstr ""
+
+#: core/info/about/class-magazinenp-about.php:762
+msgid "Thank you for using MagazineNP Pro"
+msgstr ""
+
+#: core/info/customizer/section-pro.php:27
+msgid "Get More Features in MagazineNP Pro"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:78
+#: core/widgets/magazinenp-block-post-widget.php:44
+#: core/widgets/magazinenp-grid-post-widget.php:44
+msgid "Layout"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:110
+msgid "Default"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:136
+msgid "Logo"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:149
+msgid "Upload Logo"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:153
+msgid "Remove Logo"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:165
+msgid "Background Color"
+msgstr ""
+
+#: core/meta-boxes/class-magazinenp-meta-box.php:42
+msgid "MagazineNP Page Settings"
+msgstr ""
+
+#: core/template-functions.php:6
+msgid "Theme by %s"
+msgstr ""
+
+#: core/template-functions.php:7
+msgid "Mantrabrain"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:328
+#: core/tgmpa/tgmpa-magazinenp.php:47
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:329
+#: core/tgmpa/tgmpa-magazinenp.php:48
+msgid "Install Plugins"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:331
+#: core/tgmpa/tgmpa-magazinenp.php:50
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:333
+#: core/tgmpa/tgmpa-magazinenp.php:52
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:334
+#: core/tgmpa/tgmpa-magazinenp.php:53
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:371
+#: core/tgmpa/tgmpa-magazinenp.php:90
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:376
+#: core/tgmpa/tgmpa-magazinenp.php:95
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:381
+#: core/tgmpa/tgmpa-magazinenp.php:100
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:386
+#: core/tgmpa/tgmpa-magazinenp.php:105
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:387
+#: core/tgmpa/class-tgm-plugin-activation.php:836
+#: core/tgmpa/class-tgm-plugin-activation.php:2588
+#: core/tgmpa/class-tgm-plugin-activation.php:3649
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:388
+#: core/tgmpa/class-tgm-plugin-activation.php:3223
+#: core/tgmpa/tgmpa-magazinenp.php:106
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:389
+#: core/tgmpa/class-tgm-plugin-activation.php:3010
+#: core/tgmpa/tgmpa-magazinenp.php:107
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:391
+#: core/tgmpa/tgmpa-magazinenp.php:109
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:393
+#: core/tgmpa/tgmpa-magazinenp.php:111
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:395
+#: core/tgmpa/tgmpa-magazinenp.php:113
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:396
+#: core/tgmpa/tgmpa-magazinenp.php:114
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:397
+#: core/tgmpa/tgmpa-magazinenp.php:115
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:398
+#: core/tgmpa/tgmpa-magazinenp.php:116
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:530
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:531
+msgid "Update Required"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:944
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:944
+#: core/tgmpa/class-tgm-plugin-activation.php:950
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:950
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2025
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2321
+msgid "Required"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2324
+msgid "Recommended"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2341
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2344
+msgid "External Source"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2347
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2365
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2371
+msgid "Active"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2377
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2380
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2383
+msgid "Update recommended"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2443
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2447
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2451
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2545
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2553
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2565
+msgid "Available version:"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2588
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2602
+msgid "Plugin"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Source"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2604
+msgid "Type"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2608
+msgid "Version"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2609
+msgid "Status"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2659
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2664
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2670
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2742
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2775
+msgid "Install"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2781
+msgid "Update"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2784
+msgid "Activate"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2815
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2817
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2858
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2860
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2966
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2992
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3222
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3567
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3570
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3572
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3576
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3578
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3578
+#: core/tgmpa/class-tgm-plugin-activation.php:3586
+msgid "Show Details"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3578
+#: core/tgmpa/class-tgm-plugin-activation.php:3586
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3579
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3581
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3584
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3586
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3587
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:3589
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:55
+#. translators: 1: plugin name(s).
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:61
+#. translators: 1: plugin name(s).
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:67
+#. translators: 1: plugin name(s).
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:73
+#. translators: 1: plugin name(s).
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:79
+#. translators: 1: plugin name(s).
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/tgmpa-magazinenp.php:85
+#. translators: 1: plugin name(s).
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:270
+#. Translators: %s is the search query.
+msgid "Search results for: %s"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:272
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:274
+#. Translators: %s is the page number.
+msgid "Comment Page %s"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:276
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:278
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: core/widgets/class-magazinenp-widget-base.php:237
+msgid "All Categories"
+msgstr ""
+
+#: core/widgets/class-magazinenp-widget-base.php:257
+#. translators: 1: taxonomy
+msgid "Taxonomy (%s) not found"
+msgstr ""
+
+#: core/widgets/class-magazinenp-widget-base.php:286
+msgid "Choose an image"
+msgstr ""
+
+#: core/widgets/class-magazinenp-widget-base.php:287
+msgid "Use image"
+msgstr ""
+
+#: core/widgets/class-magazinenp-widget-base.php:288
+msgid "Select an Image"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:10
+msgid "Display Block Posts"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:12
+msgid "MNP::Block Post"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:22
+msgid "Block Post"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:27
+#: core/widgets/magazinenp-grid-post-widget.php:27
+msgid "Post From"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:31
+#: core/widgets/magazinenp-grid-post-widget.php:31
+msgid "Latest Post"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:32
+#: core/widgets/magazinenp-grid-post-widget.php:32
+msgid "Posts From Category"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:47
+#: core/widgets/magazinenp-grid-post-widget.php:47
+msgid "Layout 1"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:48
+#: core/widgets/magazinenp-grid-post-widget.php:48
+msgid "Layout 2"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:54
+#: core/widgets/magazinenp-column-post-widget.php:33
+#: core/widgets/magazinenp-grid-post-widget.php:54
+msgid "Hide Category"
+msgstr ""
+
+#: core/widgets/magazinenp-block-post-widget.php:61
+#: core/widgets/magazinenp-column-post-widget.php:40
+#: core/widgets/magazinenp-grid-post-widget.php:61
+msgid "Hide Post Meta"
+msgstr ""
+
+#: core/widgets/magazinenp-column-post-widget.php:9
+msgid "Column Posts"
+msgstr ""
+
+#: core/widgets/magazinenp-column-post-widget.php:11
+msgid "MNP::Column Post"
+msgstr ""
+
+#: core/widgets/magazinenp-column-post-widget.php:21
+msgid "Column Post"
+msgstr ""
+
+#: core/widgets/magazinenp-column-post-widget.php:26
+msgid "Number of posts"
+msgstr ""
+
+#: core/widgets/magazinenp-grid-post-widget.php:10
+msgid "Grid Post Widget"
+msgstr ""
+
+#: core/widgets/magazinenp-grid-post-widget.php:12
+msgid "MNP::Grid Post"
+msgstr ""
+
+#: core/widgets/magazinenp-grid-post-widget.php:22
+msgid "Grid Post"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: searchform.php:10 searchform.php:12 searchform.php:14
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:36 template-parts/parts/entry-content.php:5
+msgid "Pages: "
+msgstr ""
+
+#: template-parts/content-page.php:50
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/footer/go-to-top.php:1
+msgid "Go to Top"
+msgstr ""
+
+#: template-parts/header/bottom.php:24
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/header/mid.php:41
+msgid "Banner Add"
+msgstr ""
+
+#: template-parts/header/top.php:30
+msgid "Responsive Menu"
+msgstr ""
+
+#: template-parts/parts/entry-meta.php:8
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/parts/entry-meta.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/parts/entry-meta.php:8
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/parts/entry-meta.php:8
+msgid "Comments Off"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://mantrabrain.com/downloads/magazinenp-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"MagazineNP is Clean, Elegant, SEO Friendly, Regularly Updated modern "
+"WordPress Magazine Theme.  It can be used for Blog, Magazine, news "
+"publisher, online news, newsportal  or any kind of news publishing & "
+"blogging sites. This is widget based WordPress Theme with clean & elegent "
+"feature slider. This theme is compatible with the WordPress default editor "
+"Gutenberg and most popular WordPress page builder plugin elementor and "
+"ecommerce plugin WooCommerce. It is Right to Left language (RTL) ready "
+"theme. Setting up magazine style home page is really easy on MagazineNP "
+"theme. Some of the other features: #Widget Based Theme #Easy Homepage setup "
+"#Clean Customizer #Live Preview #SEO Ready #RTL Support #WooCommerce "
+"Support #Elementor Compatible #Translation Ready #Fully Responsive "
+"#Extendible with premium plugin etc. For more details go to "
+"https://mantrabrain.com/downloads/magazinenp-wordpress-theme/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mantrabrain"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mantrabrain.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Gutentor Page"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:1138
+#: core/tgmpa/class-tgm-plugin-activation.php:3006
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2392
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2439
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgmpa/class-tgm-plugin-activation.php:2537
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:788
+#: core/vendor/breadcrumbs/breadcrumbs.php:817
+#: core/vendor/breadcrumbs/breadcrumbs.php:844
+#: core/vendor/breadcrumbs/breadcrumbs.php:871
+#: core/vendor/breadcrumbs/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:789
+#: core/vendor/breadcrumbs/breadcrumbs.php:845
+#: core/vendor/breadcrumbs/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:790
+#: core/vendor/breadcrumbs/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: core/vendor/breadcrumbs/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""

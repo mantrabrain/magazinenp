@@ -1,0 +1,46 @@
+.widget.magazinenp-grid-post-widget {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  margin-bottom: 16px;
+}
+.magazinenp-grid-post-widget .mnp-post-boxed.main-post  {
+  padding: 0;
+}
+.magazinenp-grid-post-widget .mnp-post-boxed.main-post .mnp-post-image-wrap {
+  margin-bottom: 0;
+  width: 100%;
+  height: 234px;
+}
+.magazinenp-grid-post-widget .mnp-post-boxed.main-post .mnp-post-image-wrap:before {
+  display: none;
+}
+.magazinenp-grid-post-widget .mnp-post-boxed.main-post.inlined .mnp-post-image-wrap {
+  width: calc(50% - 7px);
+  margin-right: 0;
+}
+.magazinenp-grid-post-widget .mnp-post-boxed.main-post.inlined .post-content {
+  padding: 15px 15px 7px;
+}
+.magazinenp-grid-post-widget .post-vertical .second-col .mnp-post-boxed {
+  min-height: inherit;
+}
+.site-footer .magazinenp-grid-post-widget .col-md-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.site-footer .magazinenp-grid-post-widget .mnp-post-boxed.main-post.inlined .mnp-post-image-wrap {
+  float: none;
+  width: 100%;
+}
+.site-footer .magazinenp-grid-post-widget .mnp-post-boxed.main-post .mnp-post-image-wrap {
+  height: auto;
+}
+.site-footer .magazinenp-grid-post-widget .mnp-post-boxed.main-post .mnp-post-image-wrap:before {
+  display: block;
+  padding-top: 60%;
+}

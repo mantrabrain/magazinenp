@@ -1,0 +1,76 @@
+.comments-area {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 35px 25px 25px;
+}
+.comments-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+.comment-reply-title {
+  font-size: calc(28px - 4px);
+}
+.comments-title,
+.comment-reply-title {
+  margin-bottom: 10px;
+}
+.comment-body {
+  padding-left: 60px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.children .comment-body {
+  padding-left: 50px;
+}
+ol.comment-list {
+  padding-left: 0;
+}
+ol.comment-list,
+ol.comment-list ol.children {
+  margin: 0;
+  list-style: none;
+}
+.comment-author .avatar {
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.children .comment-author .avatar {
+  height: 40px;
+  width: 40px;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px;
+}
+.children {
+  padding-left: 30px;
+}
+.comment-meta {
+  padding-bottom: 10px;
+}
+.comment-metadata,
+.comment-metadata a {
+  color: #555;
+}
+.comment-metadata a.comment-edit-link {
+  color: $primary_color;
+}
+.required {
+  color: red;
+}
+#wp-comment-cookies-consent {
+  margin-right: 10px;
+}
+.comment-area .form-submit {
+  margin-bottom: 0;
+}

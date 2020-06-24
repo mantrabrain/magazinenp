@@ -1,0 +1,46 @@
+body,
+input,
+textarea,
+select {
+  color: #555555;
+  font: 15px 'Roboto', sans-serif;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+body.overflow-hide {
+  overflow: hidden;
+}
+
+.theme-color {
+  color: $primary_color;
+}
+
+.theme-bg-color {
+  background-color: $primary_color;
+}
+
+pre, pre code, code, caption {
+  color: #555555;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@import "global/accessibility";
+@import "global/alignments";
+@import "global/blockquote";
+@import "global/breadcrumb";
+@import "global/buttons";
+@import "global/carousel";
+@import "global/grid";
+@import "global/forms";
+@import "global/headings";
+@import "global/images";
+@import "global/links";

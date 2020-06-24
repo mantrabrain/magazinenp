@@ -1,0 +1,55 @@
+.widget .container {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.widget {
+  margin-bottom: 30px;
+  padding: 15px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.widget ol,
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  overflow: auto;
+}
+.widget ol ol,
+.widget ul ul {
+  padding-left: 20px;
+  padding-top: 4px;
+}
+.widget ul li a {
+  color: #555555;
+}
+.widget ul li a:hover {
+  color: $primary_color;
+  text-decoration: none;
+}
+.widget ul li {
+  margin-bottom: 4px;
+}
+.widget ul li:last-child {
+  margin-bottom: 0;
+}
+.widget-area .widget .container,
+.widget-area .widget .container-fluid {
+	padding: 0;
+}
+
+@import "widgets/calendar";
+@import "widgets/categories";
+@import "widgets/video-media";
+@import "widgets/navigation";
+@import "widgets/pages";
+@import "widgets/recent-posts";
+@import "widgets/tag-cloud";
+@import "widgets/text";
+@import "widgets/custom/block-post";
+@import "widgets/custom/column-post";
+@import "widgets/custom/grid-posts";

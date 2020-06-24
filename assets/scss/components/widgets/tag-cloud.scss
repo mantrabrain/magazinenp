@@ -1,0 +1,11 @@
+.widget_tag_cloud a {
+	margin: 3px;
+	color: #555;
+	border: 1px solid #f9f9f9;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+.widget_tag_cloud a:hover {
+	color: $primary_color;
+}

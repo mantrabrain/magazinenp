@@ -1,0 +1,12 @@
+::selection {
+  background: $primary_color;
+  color: #fff;
+}
+::-moz-selection {
+  background: $primary_color;
+  color: #fff;
+}
+ul,
+ol {
+  padding-left: 20px;
+}

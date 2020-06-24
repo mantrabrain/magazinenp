@@ -1,0 +1,16 @@
+.wp-video {
+  margin-bottom: 20px;
+}
+.entry-content  p {
+  margin-bottom: 15px;
+}
+.format-quote blockquote:before {
+  color: $primary_color;
+  opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=100);
+}
+.single .entry-content.magazinenp-parts-item{
+  max-width:100%;
+  overflow: hidden;
+}

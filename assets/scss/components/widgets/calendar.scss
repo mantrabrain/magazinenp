@@ -1,0 +1,34 @@
+.widget_calendar #wp-calendar {
+  width: 100%;
+  text-align: center;
+}
+.widget_calendar #wp-calendar caption,
+.widget_calendar #wp-calendar td,
+.widget_calendar #wp-calendar th {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.widget_calendar #wp-calendar caption {
+  font-weight: 700;
+  padding: 0 0 10px 0;
+  text-transform: uppercase;
+  caption-side: top;
+}
+.widget_calendar #wp-calendar th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.widget_calendar #wp-calendar tfoot td {
+  background-color: #f4f4f4;
+}
+.site-footer .widget_calendar #wp-calendar caption {
+  color: #bbb;
+}
+.site-footer .widget_calendar #wp-calendar th,
+.site-footer .widget_calendar #wp-calendar tfoot td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.widget_calendar #wp-calendar #today {
+  background: rgba(0, 0, 0, 0.06);
+}
