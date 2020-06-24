@@ -71,6 +71,10 @@ Newscard, (C) 2019 - 2020, Themehorse
 Source: https://www.themehorse.com/themes/newscard
 License:  [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
+Code incorporated from Newscard WordPress theme, (C) 2019 - 2020, Themehorse
+Source: https://www.themehorse.com/themes/newscard
+License:  [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+
 Bootstrap, (C) 2011 - 2018, The Bootstrap Authors [MIT]
 Source: https://github.com/twbs/bootstrap
 License: [MIT](http://opensource.org/licenses/MIT)
