@@ -54,14 +54,12 @@ class MagazineNP_Loops
 
 				<?php
 			}
-			if (is_singular('post')) {
-				self::post_navigation();
-			}
+			self::post_navigation();
 
 			if ((is_single() || is_page()) && (comments_open() || get_comments_number()) && !post_password_required()) :
 				comments_template();
 			endif;
-			
+
 
 		} else {
 
