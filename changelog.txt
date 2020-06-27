@@ -1,3 +1,5 @@
+= 1.0.7 |  =
+- Pagination issue fixed
 = 1.0.6 | 2020/06/22 =
 - WooCommerce support
 - RTL issue fixed
