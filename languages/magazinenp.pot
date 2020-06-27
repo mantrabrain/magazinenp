@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: MagazineNP 1.0.6\n"
+"Project-Id-Version: MagazineNP 1.0.7\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-06-24 11:00:32+00:00\n"
+"POT-Creation-Date: 2020-06-27 10:05:35+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,24 +30,24 @@ msgstr ""
 msgid "Top Bar Navigation"
 msgstr ""
 
-#: core/class-magazinenp-loops.php:80
+#: core/class-magazinenp-loops.php:78
 msgid "Previous"
 msgstr ""
 
-#: core/class-magazinenp-loops.php:81
+#: core/class-magazinenp-loops.php:79
 msgid "Next"
 msgstr ""
 
-#: core/class-magazinenp-loops.php:121
+#: core/class-magazinenp-loops.php:119
 #. translators: %s: search query.
 msgid "Search Results for: %s"
 msgstr ""
 
-#: core/class-magazinenp-loops.php:136
+#: core/class-magazinenp-loops.php:134
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: core/class-magazinenp-loops.php:140
+#: core/class-magazinenp-loops.php:138
 msgid ""
 "It looks like nothing was found at this location. May be please check the "
 "URL for typing errors or start a new search to find the page you are "
