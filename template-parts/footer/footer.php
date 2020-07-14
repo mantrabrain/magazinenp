@@ -6,8 +6,7 @@ if ('' != $footer_background_image) {
 }
 $footer_class = $footer_background_image != '' ? 'site-footer has-background' : 'site-footer';
 ?>
-<footer id="colophon" class="<?php echo esc_attr($footer_class); ?>"
-		role="contentinfo" <?php echo $footer_background; ?>>
+<footer id="colophon" class="<?php echo esc_attr($footer_class); ?>" <?php echo $footer_background; ?>>
 	<?php
 
 	get_template_part('template-parts/footer/footer-widgets');
