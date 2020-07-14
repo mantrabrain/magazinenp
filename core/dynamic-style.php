@@ -59,7 +59,7 @@ if (!function_exists('magazinenp_dynamic_css')) :
         $all_dynamic_css = magazinenp_get_all_dynamic_css();
         ?>
 
-        <style type="text/css" class="magazinenp-dynamic-css">
+        <style class="magazinenp-dynamic-css">
 
             <?php echo $all_dynamic_css ; ?>
 

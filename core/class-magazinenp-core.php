@@ -74,6 +74,8 @@ final class MagazineNP_Core
 			'comment-list',
 			'gallery',
 			'caption',
+			'script',
+			'style',
 		));
 
 		// Set up the WordPress core custom background feature.
