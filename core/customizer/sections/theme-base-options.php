@@ -13,6 +13,7 @@ include_once 'base/title.php';
 include_once 'base/mnp-cat-color.php';
 include_once 'base/social.php';
 include_once 'base/sidebars.php';
+include_once 'base/go-to-top.php';
 
 
 

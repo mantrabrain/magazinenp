@@ -30,6 +30,10 @@ function magazinenp_get_default_options($key = '')
 	}
 	$defaults['enable_sidebar_sticky'] = true;
 
+	// Go to Top
+	$defaults['enable_go_to_top'] = true;
+
+
 
 	// Top Bar
 	$defaults['show_date_on_topbar'] = true;

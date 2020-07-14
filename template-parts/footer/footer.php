@@ -14,6 +14,7 @@ $footer_class = $footer_background_image != '' ? 'site-footer has-background' : 
 	?>
 </footer>
 <?php
-
-get_template_part('template-parts/footer/go-to-top');
+if ((boolean)magazinenp_get_option('enable_go_to_top')) {
+	get_template_part('template-parts/footer/go-to-top');
+}
 ?>
