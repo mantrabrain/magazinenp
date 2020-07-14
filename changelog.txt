@@ -1,6 +1,7 @@
 = 1.0.8 |  2020/07/14 =
-- WPML compatibility
-- W3c validate issue fixed
+- Fixed - WPML compatibility
+- Fixed - W3c validate issue fixed
+- Added - Go to top enable/disable options
 = 1.0.7 |  =
 - Pagination issue fixed
 = 1.0.6 | 2020/06/22 =
