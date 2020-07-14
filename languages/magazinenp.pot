@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: MagazineNP 1.0.7\n"
+"Project-Id-Version: MagazineNP 1.0.8\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-07-14 01:38:05+00:00\n"
+"POT-Creation-Date: 2020-07-14 02:19:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,25 +130,25 @@ msgstr ""
 msgid "off"
 msgstr ""
 
-#: core/customizer/core.php:50
+#: core/customizer/core.php:54
 #: core/customizer/sections/header/popular-tags.php:5 core/functions.php:95
 msgid "Popular Tags"
 msgstr ""
 
-#: core/customizer/core.php:54
+#: core/customizer/core.php:58
 msgid "News Flash"
 msgstr ""
 
-#: core/customizer/core.php:95
+#: core/customizer/core.php:99
 msgid "Popular Stories"
 msgstr ""
 
-#: core/customizer/core.php:114
+#: core/customizer/core.php:118
 #: core/customizer/sections/single-post/related-post.php:5
 msgid "Related Posts"
 msgstr ""
 
-#: core/customizer/core.php:127
+#: core/customizer/core.php:131
 msgid "Copyright &copy; All rights reserved"
 msgstr ""
 
@@ -180,6 +180,15 @@ msgstr ""
 
 #: core/customizer/sections/base/date.php:25
 msgid "WordPress Default"
+msgstr ""
+
+#: core/customizer/sections/base/go-to-top.php:5
+#: template-parts/footer/go-to-top.php:1
+msgid "Go to Top"
+msgstr ""
+
+#: core/customizer/sections/base/go-to-top.php:25
+msgid "Enable/Disable Go to Top"
 msgstr ""
 
 #: core/customizer/sections/base/layouts.php:4
@@ -1494,10 +1503,6 @@ msgstr ""
 #: template-parts/content-page.php:50
 #. translators: %s: Name of current post. Only visible to screen readers
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
-#: template-parts/footer/go-to-top.php:1
-msgid "Go to Top"
 msgstr ""
 
 #: template-parts/header/bottom.php:24
