@@ -407,6 +407,34 @@ if (!function_exists('magazinenp_post_block_display')) :
 
 	}
 endif;
+
+if (!function_exists('magazinenp_you_missed_display')) :
+
+	function magazinenp_you_missed_display()
+	{
+		$show = (boolean)magazinenp_get_option('show_you_missed_section');
+
+		if ($show) {
+
+			$display = magazinenp_get_option('you_missed_display');
+
+			if ('all' == $display) {
+				return true;
+			}
+
+			if (is_front_page() || ($display == "home-blog" && is_home())) {
+
+				return true;
+
+			}
+			return false;
+
+		}
+		return false;
+
+
+	}
+endif;
 if (!function_exists('magazinenp_news_ticker_display')) :
 
 	function magazinenp_news_ticker_display()

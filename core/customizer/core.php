@@ -128,6 +128,16 @@ function magazinenp_get_default_options($key = '')
 	// Single Page
 	$defaults['show_page_feature_image'] = true;
 
+	// start of post block
+	$defaults['show_you_missed_section'] = false;
+	$defaults['you_missed_heading'] = esc_html__('You Missed', 'magazinenp');
+	$defaults['you_missed_display'] = 'home';
+	$defaults['you_missed_post_from'] = 'latest';
+	$defaults['you_missed_post_category'] = '';
+	$defaults['show_you_missed_post_category'] = true;
+	$defaults['show_you_missed_post_meta'] = true;
+
+
 	// Footer
 	$defaults['bottom_footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved', 'magazinenp');
 	$defaults['show_social_profile_on_footer'] = true;

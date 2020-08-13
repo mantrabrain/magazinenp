@@ -18,6 +18,7 @@ class MagazineNP_Footer_Hooks
 	{
 
 		add_action('magazinenp_footer', array($this, 'related_posts'), 15);
+		add_action('magazinenp_footer', array($this, 'you_missed'), 16);
 		add_action('magazinenp_footer', array($this, 'footer'), 20);
 		add_action('magazinenp_footer', array($this, 'page_html_close'), 25);
 
@@ -26,8 +27,15 @@ class MagazineNP_Footer_Hooks
 
 	public function related_posts()
 	{
-		if(is_singular('post')) {
+		if (is_singular('post')) {
 			get_template_part('template-parts/footer/related-posts');
+		}
+	}
+
+	public function you_missed()
+	{
+		if (magazinenp_you_missed_display()) {
+			get_template_part('template-parts/footer/you-missed');
 		}
 	}
 
