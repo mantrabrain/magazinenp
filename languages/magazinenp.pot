@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: MagazineNP 1.0.8\n"
+"Project-Id-Version: MagazineNP 1.0.9\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-07-14 02:25:40+00:00\n"
+"POT-Creation-Date: 2020-08-13 08:41:57+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,25 +130,29 @@ msgstr ""
 msgid "off"
 msgstr ""
 
-#: core/customizer/core.php:54
+#: core/customizer/core.php:53
 #: core/customizer/sections/header/popular-tags.php:5 core/functions.php:95
 msgid "Popular Tags"
 msgstr ""
 
-#: core/customizer/core.php:58
+#: core/customizer/core.php:57
 msgid "News Flash"
 msgstr ""
 
-#: core/customizer/core.php:99
+#: core/customizer/core.php:100
 msgid "Popular Stories"
 msgstr ""
 
-#: core/customizer/core.php:118
+#: core/customizer/core.php:119
 #: core/customizer/sections/single-post/related-post.php:5
 msgid "Related Posts"
 msgstr ""
 
-#: core/customizer/core.php:131
+#: core/customizer/core.php:133
+msgid "You Missed"
+msgstr ""
+
+#: core/customizer/core.php:142
 msgid "Copyright &copy; All rights reserved"
 msgstr ""
 
@@ -277,6 +281,7 @@ msgstr ""
 #: core/customizer/sections/featured/banner/post-col-2.php:84
 #: core/customizer/sections/featured/banner/slider.php:84
 #: core/customizer/sections/featured/post-block/settings.php:104
+#: core/customizer/sections/missed/main.php:105
 msgid "Show Category"
 msgstr ""
 
@@ -285,6 +290,7 @@ msgstr ""
 #: core/customizer/sections/featured/banner/post-col-2.php:106
 #: core/customizer/sections/featured/banner/slider.php:106
 #: core/customizer/sections/featured/post-block/settings.php:126
+#: core/customizer/sections/missed/main.php:127
 msgid "Show Post Meta"
 msgstr ""
 
@@ -316,6 +322,7 @@ msgstr ""
 
 #: core/customizer/sections/featured/banner/post-col-1.php:33
 #: core/customizer/sections/featured/banner/post-col-2.php:33
+#: core/customizer/sections/missed/main.php:55
 msgid "Heading"
 msgstr ""
 
@@ -324,6 +331,7 @@ msgstr ""
 #: core/customizer/sections/featured/banner/slider.php:51
 #: core/customizer/sections/featured/post-block/settings.php:71
 #: core/customizer/sections/header/ticker.php:37
+#: core/customizer/sections/missed/main.php:72
 #: core/customizer/sections/single-post/related-post.php:53
 msgid "Show Latest Posts"
 msgstr ""
@@ -333,6 +341,7 @@ msgstr ""
 #: core/customizer/sections/featured/banner/slider.php:52
 #: core/customizer/sections/featured/post-block/settings.php:72
 #: core/customizer/sections/header/ticker.php:38
+#: core/customizer/sections/missed/main.php:73
 #: core/customizer/sections/single-post/related-post.php:54
 msgid "Show Posts from Category"
 msgstr ""
@@ -342,6 +351,7 @@ msgstr ""
 #: core/customizer/sections/featured/banner/slider.php:63
 #: core/customizer/sections/featured/post-block/settings.php:83
 #: core/customizer/sections/header/ticker.php:51
+#: core/customizer/sections/missed/main.php:84
 #: core/customizer/sections/single-post/related-post.php:81
 msgid "Choose Category"
 msgstr ""
@@ -359,6 +369,7 @@ msgstr ""
 #: core/customizer/sections/featured/post-block/settings.php:34
 #: core/customizer/sections/header/popular-tags.php:32
 #: core/customizer/sections/header/ticker.php:64
+#: core/customizer/sections/missed/main.php:34
 msgid "Display Option"
 msgstr ""
 
@@ -366,6 +377,7 @@ msgstr ""
 #: core/customizer/sections/featured/post-block/settings.php:39
 #: core/customizer/sections/header/popular-tags.php:37
 #: core/customizer/sections/header/ticker.php:69
+#: core/customizer/sections/missed/main.php:39
 msgid "Show on Homepage only"
 msgstr ""
 
@@ -373,6 +385,7 @@ msgstr ""
 #: core/customizer/sections/featured/post-block/settings.php:40
 #: core/customizer/sections/header/popular-tags.php:38
 #: core/customizer/sections/header/ticker.php:70
+#: core/customizer/sections/missed/main.php:40
 msgid "Show on Homepage & Blog Page"
 msgstr ""
 
@@ -402,7 +415,7 @@ msgid "Post Block Heading"
 msgstr ""
 
 #: core/customizer/sections/featured/post-block.php:4
-msgid "Post Block"
+msgid "Post Block/Popular Stories"
 msgstr ""
 
 #: core/customizer/sections/footer/footer.php:9
@@ -475,6 +488,26 @@ msgstr ""
 msgid "News Ticker Heading"
 msgstr ""
 
+#: core/customizer/sections/header/ticker.php:82
+msgid "Thumbnail Type"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:87
+msgid "Circle"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:88
+msgid "Square"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:89
+msgid "Square Radius"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:90
+msgid "Hide Thumbnail"
+msgstr ""
+
 #: core/customizer/sections/header/top.php:5 core/functions.php:79
 #: core/info/about/class-magazinenp-about.php:440
 msgid "Top Bar"
@@ -482,6 +515,14 @@ msgstr ""
 
 #: core/customizer/sections/header/top.php:25
 msgid "Show/Hide Date"
+msgstr ""
+
+#: core/customizer/sections/missed/main.php:18
+msgid "Show you missed section"
+msgstr ""
+
+#: core/customizer/sections/missed/main.php:41
+msgid "Show on All Pages"
 msgstr ""
 
 #: core/customizer/sections/single-page/content.php:17
@@ -574,6 +615,10 @@ msgstr ""
 msgid "Theme Style Homepage"
 msgstr ""
 
+#: core/customizer/sections/theme-missed-options.php:6
+msgid "You Missed Section"
+msgstr ""
+
 #: core/customizer/sections/theme-single-page-options.php:6
 #: core/info/about/class-magazinenp-about.php:465
 msgid "Single Page"
@@ -624,31 +669,31 @@ msgstr ""
 msgid "ago"
 msgstr ""
 
-#: core/functions.php:455
+#: core/functions.php:483
 msgid "Facebook"
 msgstr ""
 
-#: core/functions.php:461
+#: core/functions.php:489
 msgid "Twitter"
 msgstr ""
 
-#: core/functions.php:468
+#: core/functions.php:496
 msgid "Linkedin"
 msgstr ""
 
-#: core/functions.php:475
+#: core/functions.php:503
 msgid "Instagram"
 msgstr ""
 
-#: core/functions.php:482
+#: core/functions.php:510
 msgid "Youtube"
 msgstr ""
 
-#: core/functions.php:489
+#: core/functions.php:517
 msgid "Pinterest"
 msgstr ""
 
-#: core/functions.php:645 core/tgmpa/tgmpa-magazinenp.php:22
+#: core/functions.php:673 core/tgmpa/tgmpa-magazinenp.php:22
 msgid "Mantra Brain Starter Sites"
 msgstr ""
 
