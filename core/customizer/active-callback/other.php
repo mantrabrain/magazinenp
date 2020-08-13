@@ -24,3 +24,17 @@ if (!function_exists('magazinenp_related_posts_is_from_category')) {
 
 	}
 }
+
+
+if (!function_exists('magazinenp_you_missed_from_category')) {
+	function magazinenp_you_missed_from_category($control)
+	{
+		$post_form = magazinenp_get_option('you_missed_post_from');
+		if ($post_form == 'category') {
+			return true;
+		}
+		return false;
+
+
+	}
+}
