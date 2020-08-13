@@ -34,7 +34,6 @@ function magazinenp_get_default_options($key = '')
 	$defaults['enable_go_to_top'] = true;
 
 
-
 	// Top Bar
 	$defaults['show_date_on_topbar'] = true;
 	$defaults['show_social_profile_on_topbar'] = true;
@@ -62,6 +61,8 @@ function magazinenp_get_default_options($key = '')
 	$defaults['news_ticker_post_category'] = '';
 
 	$defaults['news_ticker_display'] = 'home';
+
+	$defaults['news_ticker_thumbnail_type'] = 'circle';
 
 	// end of ticker
 
