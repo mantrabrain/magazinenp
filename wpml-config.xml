@@ -5,6 +5,7 @@
 			<key name="magazinenp_post_col_1_heading"/>
 			<key name="magazinenp_post_col_2_heading"/>
 			<key name="magazinenp_post_block_heading"/>
+			<key name="magazinenp_you_missed_heading"/>
 		</key>
 	</admin-texts>
 </wpml-config>
