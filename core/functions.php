@@ -680,3 +680,12 @@ if (!function_exists('magazinenp_get_recommanded_plugins')) {
 		return apply_filters('magazinenp_get_recommanded_plugins', $plugins);
 	}
 }
+
+if (!function_exists('magazinenp_show_page_title')) {
+	function magazinenp_show_page_title()
+	{
+		$status = (boolean)magazinenp_get_option('show_page_title');
+
+		return $status ? true : false;
+	}
+}

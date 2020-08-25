@@ -127,6 +127,7 @@ function magazinenp_get_default_options($key = '')
 
 	// Single Page
 	$defaults['show_page_feature_image'] = true;
+	$defaults['show_page_title'] = true;
 
 	// start of post block
 	$defaults['show_you_missed_section'] = false;
