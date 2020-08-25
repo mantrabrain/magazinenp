@@ -280,11 +280,29 @@ if (!function_exists('magazinenp_posted_on')) :
 
 		$date_format = magazinenp_get_option('date_format');
 
+		$mnp_date_class = 'date';
+
 		if ($date_format == 'theme-default') {
+
+			$mnp_date_class .= ' created-date';
 
 			$time_string = human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . __('ago', 'magazinenp');
 
+		} else if ($date_format == 'theme-default-updated') {
+
+			$mnp_date_class .= ' updated-date';
+
+			$time_string = human_time_diff(get_the_modified_date('U'), current_time('timestamp')) . ' ' . __('ago', 'magazinenp');
+
+		} else if ($date_format == 'wp-default-updated') {
+
+			$mnp_date_class .= ' updated-date';
+
+			$time_string = get_the_modified_date(get_option('date_format'));
+
 		} else {
+
+			$mnp_date_class .= ' created-date';
 
 			$time_string = get_the_time(get_option('date_format'));
 
@@ -295,7 +313,7 @@ if (!function_exists('magazinenp_posted_on')) :
 
 		$byline = '<a href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '"><i class="mnp-icon fa fa-user-circle"></i>' . esc_html(get_the_author()) . '</a> ';
 
-		echo '<div class="date">' . $posted_on . '</div> <div class="by-author vcard author">' . $byline . '</div>'; // WPCS: XSS OK.
+		echo '<div class="' . esc_attr($mnp_date_class) . '">' . $posted_on . '</div> <div class="by-author vcard author">' . $byline . '</div>'; // WPCS: XSS OK.
 
 	}
 endif;

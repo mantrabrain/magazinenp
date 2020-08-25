@@ -21,8 +21,10 @@ $wp_customize->add_control(
 	'active_callback' => 'magazinenp_is_ticker_enabled',
 	'type' => 'select',
 	'choices' => array(
-		'theme-default' => esc_html__('Theme Default', 'magazinenp'),
-		'wp-default' => esc_html__('WordPress Default', 'magazinenp')
+		'theme-default' => esc_html__('Theme Default/Created Date', 'magazinenp'),
+		'theme-default-updated' => esc_html__('Theme Default/Updated Date', 'magazinenp'),
+		'wp-default' => esc_html__('WordPress Default/Created Date', 'magazinenp'),
+		'wp-default-updated' => esc_html__('WordPress Default/Updated Date', 'magazinenp')
 	),
 	'priority' => 20,
 
