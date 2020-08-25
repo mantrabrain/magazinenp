@@ -18,13 +18,12 @@ $wp_customize->add_control(
 	magazinenp_get_customizer_id('date_format'), array(
 	'label' => __('Date Format', 'magazinenp'),
 	'section' => 'magazinenp_theme_base_date_time',
-	'active_callback' => 'magazinenp_is_ticker_enabled',
 	'type' => 'select',
 	'choices' => array(
-		'theme-default' => esc_html__('Theme Default/Created Date', 'magazinenp'),
-		'theme-default-updated' => esc_html__('Theme Default/Updated Date', 'magazinenp'),
-		'wp-default' => esc_html__('WordPress Default/Created Date', 'magazinenp'),
-		'wp-default-updated' => esc_html__('WordPress Default/Updated Date', 'magazinenp')
+		'theme-default' => esc_html__('Theme Default (Created Date)', 'magazinenp'),
+		'theme-default-updated' => esc_html__('Theme Default (Updated Date)', 'magazinenp'),
+		'wp-default' => esc_html__('WordPress Default (Created Date)', 'magazinenp'),
+		'wp-default-updated' => esc_html__('WordPress Default (Updated Date)', 'magazinenp')
 	),
 	'priority' => 20,
 

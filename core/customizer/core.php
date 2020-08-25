@@ -114,6 +114,7 @@ function magazinenp_get_default_options($key = '')
 
 	// Single Post
 	$defaults['single_post_content_order'] = magazinenp_post_content_ordering();
+	$defaults['single_post_date_format'] = 'global';
 	// Related Post
 	$defaults['show_related_posts'] = true;
 	$defaults['related_posts_heading'] = esc_html__('Related Posts', 'magazinenp');

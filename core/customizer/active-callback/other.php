@@ -38,3 +38,18 @@ if (!function_exists('magazinenp_you_missed_from_category')) {
 
 	}
 }
+
+if (!function_exists('magazinenp_single_post_is_post_meta_enable')) {
+	function magazinenp_single_post_is_post_meta_enable()
+	{
+		$content_order = magazinenp_post_content_ordering('single_post_content_order');
+
+		$post_meta = isset($content_order['post_meta']) ? $content_order['post_meta'] : array();
+
+		$status = isset($post_meta['disable']) && $post_meta['disable'] ? false : true;
+
+		return $status;
+
+
+	}
+}

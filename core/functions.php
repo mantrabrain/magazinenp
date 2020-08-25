@@ -274,11 +274,17 @@ if (!function_exists('magazinenp_posted_on')) :
 	/**
 	 * Prints HTML with meta information for the current post-date/time and author.
 	 */
-	function magazinenp_posted_on()
+	function magazinenp_posted_on($mnp_post_from = '')
 	{
 
 
 		$date_format = magazinenp_get_option('date_format');
+
+		if ($mnp_post_from == 'single') {
+
+			$date_format_single = magazinenp_get_option('single_post_date_format');
+		}
+		$date_format = $date_format_single == '' || $date_format_single == null || $date_format_single == 'global' ? $date_format : $date_format_single;
 
 		$mnp_date_class = 'date';
 
@@ -299,6 +305,18 @@ if (!function_exists('magazinenp_posted_on')) :
 			$mnp_date_class .= ' updated-date';
 
 			$time_string = get_the_modified_date(get_option('date_format'));
+
+		} else if ($date_format == 'wp-default-datetime') {
+
+			$mnp_date_class .= ' created-date';
+
+			$time_string = get_the_time(get_option('date_format') ). ' ' . get_the_time(get_option('time_format'));
+
+		} else if ($date_format == 'wp-default-updated-datetime') {
+
+			$mnp_date_class .= ' updated-date';
+
+			$time_string = get_the_modified_date(get_option('date_format') ). ' ' . get_the_modified_time(get_option('time_format'));
 
 		} else {
 
