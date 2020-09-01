@@ -328,7 +328,53 @@ if (!function_exists('magazinenp_posted_on')) :
 		}
 
 
-		$posted_on = '<a href="' . esc_url(get_permalink()) . '" title="' . the_title_attribute('echo=0') . '"><i class="mnp-icon fa fa-clock"></i>' . esc_html($time_string) . '</a> ';
+		$title_string = the_title_attribute('echo=0');
+
+		$title_string_type = magazinenp_get_option('global_date_title');
+
+		if ($title_string_type == 'theme-default') {
+
+			$title_string = human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . __('ago', 'magazinenp');
+
+		} else if ($title_string_type == 'theme-default-updated') {
+
+			$title_string = human_time_diff(get_the_modified_date('U'), current_time('timestamp')) . ' ' . __('ago', 'magazinenp');
+
+		} else if ($title_string_type == 'wp-default') {
+
+			$title_string = get_the_time(get_option('date_format'));
+
+		} else if ($title_string_type == 'wp-default-updated') {
+
+			$title_string = get_the_modified_date(get_option('date_format'));
+
+		} else if ($title_string_type == 'wp-default-datetime') {
+
+			$title_string = get_the_time(get_option('date_format')) . ' ' . get_the_time(get_option('time_format'));
+
+		} else if ($title_string_type == 'wp-default-updated-datetime') {
+
+			$title_string = get_the_modified_date(get_option('date_format')) . ' ' . get_the_modified_time(get_option('time_format'));
+
+		} else if ($title_string_type == 'none') {
+
+			$title_string = '';
+
+		} else {
+
+			$title_string = the_title_attribute('echo=0');
+
+
+		}
+
+
+		$posted_on = '<a href="' . esc_url(get_permalink()) . '"';
+
+		if ('' != $title_string) {
+
+			$posted_on .= ' title="' . esc_attr($title_string) . '"';
+		}
+		$posted_on .= '><i class="mnp-icon fa fa-clock"></i>' . esc_html($time_string) . '</a> ';
 
 		$byline = '<a href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '"><i class="mnp-icon fa fa-user-circle"></i>' . esc_html(get_the_author()) . '</a> ';
 

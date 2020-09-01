@@ -49,6 +49,7 @@ $wp_customize->add_control(
 		'wp-default-updated' => esc_html__('WordPress Default (Updated Date)', 'magazinenp'),
 		'wp-default-datetime' => esc_html__('WordPress Default (Created Date Time)', 'magazinenp'),
 		'wp-default-updated-datetime' => esc_html__('WordPress Default (Updated Date Time)', 'magazinenp')
+
 	),
 	'priority' => 130,
 

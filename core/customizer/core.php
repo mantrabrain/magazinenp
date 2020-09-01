@@ -14,6 +14,7 @@ function magazinenp_get_default_options($key = '')
 
 	// Date
 	$defaults['date_format'] = 'theme-default';
+	$defaults['global_date_title'] = 'post-title';
 
 	// Title Style
 	$defaults['title_style'] = 'style4';
