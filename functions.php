@@ -10,7 +10,7 @@
  * @since 1.0.0
  */
 
-define('MAGAZINENP_THEME_VERSION', '1.0.9');
+define('MAGAZINENP_THEME_VERSION', '1.0.10');
 define('MAGAZINENP_THEME_SETTINGS', 'magazinenp');
 define('MAGAZINENP_THEME_OPTION_PANEL', 'magazinenp_theme_option_panel');
 define('MAGAZINENP_THEME_DIR', trailingslashit(get_template_directory()));
