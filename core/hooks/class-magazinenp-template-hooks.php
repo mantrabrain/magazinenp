@@ -157,7 +157,7 @@ class MagazineNP_Template_Hooks
 
 		?>
 		<aside id="secondary" class="<?php echo esc_attr($class) ?>">
-			<div class="<?php echo esc_attr($sidebar_inner_class); ?>>">
+			<div class="<?php echo esc_attr($sidebar_inner_class); ?>">
 				<?php dynamic_sidebar('magazinenp_front_page_sidebar_section'); ?>
 			</div>
 		</aside><!-- #secondary -->

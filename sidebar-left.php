@@ -19,7 +19,7 @@ $sidebar_inner_class = $enable_sidebar_sticky ? 'sticky-sidebar' : 'no-sticky-si
 ?>
 
 <aside id="secondary" class="col-lg-4 widget-area order-lg-1">
-    <div class="<?php echo esc_attr($sidebar_inner_class); ?>>">
+    <div class="<?php echo esc_attr($sidebar_inner_class); ?>">
         <?php dynamic_sidebar($left_sidebar); ?>
     </div>
 </aside>
