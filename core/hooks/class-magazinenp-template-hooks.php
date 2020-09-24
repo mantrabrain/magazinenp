@@ -153,7 +153,7 @@ class MagazineNP_Template_Hooks
 
 		$enable_sidebar_sticky = (boolean)magazinenp_get_option('enable_sidebar_sticky');
 
-		$sidebar_inner_class = $enable_sidebar_sticky ? 'sticky-sidebar' : 'no-sticky-sidebar';
+		$sidebar_inner_class = $enable_sidebar_sticky ? 'no-sticky-sidebar' : 'no-sticky-sidebar';
 
 		?>
 		<aside id="secondary" class="<?php echo esc_attr($class) ?>">
