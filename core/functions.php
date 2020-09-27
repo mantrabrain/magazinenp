@@ -74,6 +74,12 @@ if (!function_exists('magazinenp_header_ordering')) {
 			'magazinenp_header_ordering',
 			array(
 
+				'header_media' =>
+					array(
+						'title' => esc_html__('Header Media', 'magazinenp'),
+						'disable' => false
+
+					),
 				'top_header' =>
 					array(
 						'title' => esc_html__('Top Bar', 'magazinenp'),
@@ -114,8 +120,15 @@ if (!function_exists('magazinenp_header_ordering')) {
 		$ordering = magazinenp_get_option($key);
 
 		try {
-
 			$ordering = !empty($ordering) && is_string($ordering) ? json_decode($ordering, true) : $default_orders;
+			if (is_array($ordering) && !isset($ordering['header_media'])) {
+				array_unshift($ordering, array('header_media' =>
+					array(
+						'title' => esc_html__('Header Media', 'magazinenp'),
+						'disable' => false
+
+					)));
+			}
 
 		} catch (Exception $e) {
 

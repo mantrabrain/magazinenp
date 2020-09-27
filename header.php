@@ -26,10 +26,6 @@
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'magazinenp'); ?></a>
-	<?php if (has_header_video() || has_header_image()) {
-		the_custom_header_markup();
-	} ?>
-
 	<header id="masthead" class="site-header">
 		<?php
 		$header_ordering = magazinenp_header_ordering('header_ordering');
@@ -38,6 +34,9 @@
 			$is_disabled = isset($header_args['disable']) ? (boolean)$header_args['disable'] : false;
 			if (!$is_disabled) {
 				switch ($header_index) {
+					case "header_media":
+						get_template_part('template-parts/header/media');
+						break;
 					case "top_header":
 						get_template_part('template-parts/header/top');
 						break;
