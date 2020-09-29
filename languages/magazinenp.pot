@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MagazineNP 1.1.1\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-09-29 07:37:35+00:00\n"
+"POT-Creation-Date: 2020-09-29 07:41:25+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Date Title"
 msgstr ""
 
-#: core/customizer/sections/base/date.php:46 core/functions.php:213
+#: core/customizer/sections/base/date.php:46 core/functions.php:205
 msgid "Post Title"
 msgstr ""
 
@@ -358,7 +358,7 @@ msgid "Pagination"
 msgstr ""
 
 #: core/customizer/sections/featured/banner/post-col-1.php:18
-#: core/functions.php:151
+#: core/functions.php:143
 msgid "Post Column 1"
 msgstr ""
 
@@ -399,7 +399,7 @@ msgid "Choose Category"
 msgstr ""
 
 #: core/customizer/sections/featured/banner/post-col-2.php:18
-#: core/functions.php:163
+#: core/functions.php:155
 msgid "Post Column 2"
 msgstr ""
 
@@ -492,7 +492,7 @@ msgid "Enable/Disable Sticky"
 msgstr ""
 
 #: core/customizer/sections/header/media.php:4 core/functions.php:79
-#: core/functions.php:127 core/theme-update/update-functions.php:27
+#: core/theme-update/update-functions.php:27
 msgid "Header Media"
 msgstr ""
 
@@ -601,13 +601,13 @@ msgid "Related Posts Taxonomy"
 msgstr ""
 
 #: core/customizer/sections/single-post/related-post.php:69
-#: core/functions.php:207 core/widgets/magazinenp-block-post-widget.php:38
+#: core/functions.php:199 core/widgets/magazinenp-block-post-widget.php:38
 #: core/widgets/magazinenp-grid-post-widget.php:38
 msgid "Category"
 msgstr ""
 
 #: core/customizer/sections/single-post/related-post.php:70
-#: core/functions.php:228 template-parts/parts/tags-meta.php:3
+#: core/functions.php:220 template-parts/parts/tags-meta.php:3
 msgid "Tags"
 msgstr ""
 
@@ -696,52 +696,52 @@ msgstr ""
 msgid "FULL WIDTH"
 msgstr ""
 
-#: core/functions.php:157
+#: core/functions.php:149
 msgid "Slider"
 msgstr ""
 
-#: core/functions.php:202
+#: core/functions.php:194
 msgid "Featured Image"
 msgstr ""
 
-#: core/functions.php:218
+#: core/functions.php:210
 msgid "Post Meta"
 msgstr ""
 
-#: core/functions.php:223
+#: core/functions.php:215
 msgid "Post Content"
 msgstr ""
 
-#: core/functions.php:309 core/functions.php:315 core/functions.php:350
-#: core/functions.php:354
+#: core/functions.php:301 core/functions.php:307 core/functions.php:342
+#: core/functions.php:346
 msgid "ago"
 msgstr ""
 
-#: core/functions.php:579
+#: core/functions.php:571
 msgid "Facebook"
 msgstr ""
 
-#: core/functions.php:585
+#: core/functions.php:577
 msgid "Twitter"
 msgstr ""
 
-#: core/functions.php:592
+#: core/functions.php:584
 msgid "Linkedin"
 msgstr ""
 
-#: core/functions.php:599
+#: core/functions.php:591
 msgid "Instagram"
 msgstr ""
 
-#: core/functions.php:606
+#: core/functions.php:598
 msgid "Youtube"
 msgstr ""
 
-#: core/functions.php:613
+#: core/functions.php:605
 msgid "Pinterest"
 msgstr ""
 
-#: core/functions.php:769 core/tgmpa/tgmpa-magazinenp.php:22
+#: core/functions.php:761 core/tgmpa/tgmpa-magazinenp.php:22
 msgid "Mantra Brain Starter Sites"
 msgstr ""
 

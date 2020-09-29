@@ -29,5 +29,7 @@ function magazinenp_update_v_1_1_1()
 
 			)), $ordering);
 	}
+	$ordering = is_string($ordering) ? $ordering : json_encode($ordering);
+	
 	magazinenp_set_option('header_ordering', $ordering);
 }
