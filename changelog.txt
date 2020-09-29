@@ -1,6 +1,7 @@
-= 1.1.2 |   =
+= 1.1.2 |  2020/09/29 =
 - Added - Hooks for child theme
 - Added - Header media ordering for header
+- Added - Moved Header media video section to theme options->header->header media
 = 1.1.1 | 2020/09/24   =
 - Fixed - Sticky Sidebar Issue fixed
 = 1.0.10 |  2020/09/01 =
