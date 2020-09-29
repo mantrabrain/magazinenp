@@ -118,6 +118,8 @@ class MagazineNP_Customizer
 	{
 
 		$wp_customize->get_control('header_image')->section = 'magazinenp_section_header_media_options';
+		$wp_customize->get_control('header_video')->section = 'magazinenp_section_header_media_options';
+		$wp_customize->get_control('external_header_video')->section = 'magazinenp_section_header_media_options';
 
 		$wp_customize->get_section('static_front_page')->priority = 10;
 
