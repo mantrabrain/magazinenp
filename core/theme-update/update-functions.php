@@ -16,7 +16,7 @@ function magazinenp_set_option($key, $value)
 
 }
 
-function magazinenp_update_v_1_1_1()
+function magazinenp_update_v_1_1_2()
 {
 	$ordering = magazinenp_header_ordering('header_ordering');
 
@@ -30,6 +30,6 @@ function magazinenp_update_v_1_1_1()
 			)), $ordering);
 	}
 	$ordering = is_string($ordering) ? $ordering : json_encode($ordering);
-	
+
 	magazinenp_set_option('header_ordering', $ordering);
 }

@@ -11,7 +11,9 @@ class MagazineNP_Theme_Update
 	}
 
 	public static $db_updates = array(
-		'1.0.0' => array()
+		'1.1.2' => array(
+			'magazinenp_update_v_1_1_2'
+		)
 	);
 
 	public function update()
@@ -31,23 +33,28 @@ class MagazineNP_Theme_Update
 		if (version_compare($saved_version, $version, '=')) {
 			return;
 		}
-		if (false === $saved_version || is_null($saved_version) || '' == $saved_version) {
-			magazinenp_update_v_1_1_1();
-		}
-		foreach (self::$db_updates as $db_version => $callback) {
+		foreach (self::$db_updates as $db_version => $callbacks) {
 
 			if (version_compare($saved_version, $db_version, '<')) {
-				//
+
+				foreach ($callbacks as $callback) {
+
+					if (function_exists($callback)) {
+
+						call_user_func($callback);
+					}
+				}
 			}
 
 		}
+
 		self::update_version_db();
 
 	}
 
 	public static function version_from_db()
 	{
-		$theme_version = get_theme_mod('magazinenp_theme_version_from_db', null);
+		$theme_version = get_theme_mod('magazinenp_theme_version_from_db', '1.1.1');
 
 		return $theme_version;
 	}
