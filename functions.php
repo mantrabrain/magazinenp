@@ -9,8 +9,9 @@
  * @subpackage MagazineNP
  * @since 1.0.0
  */
+$magazinenp_theme = wp_get_theme('magazinenp');
 
-define('MAGAZINENP_THEME_VERSION', '1.1.1');
+define('MAGAZINENP_THEME_VERSION', $magazinenp_theme->get('Version'));
 define('MAGAZINENP_THEME_SETTINGS', 'magazinenp');
 define('MAGAZINENP_THEME_OPTION_PANEL', 'magazinenp_theme_option_panel');
 define('MAGAZINENP_THEME_DIR', trailingslashit(get_template_directory()));
@@ -21,7 +22,7 @@ require_once MAGAZINENP_THEME_DIR . 'core/class-magazinenp-core.php';
 
 function MagazineNP()
 {
-    return MagazineNP_Core::get_instance();
+	return MagazineNP_Core::get_instance();
 
 }
 

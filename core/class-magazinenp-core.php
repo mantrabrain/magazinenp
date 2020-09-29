@@ -110,7 +110,7 @@ final class MagazineNP_Core
 			'wp-head-callback' => 'magazinenp_header_style',
 			'video' => true,
 		)));
-		add_theme_support( 'align-wide' );
+		add_theme_support('align-wide');
 
 	}
 
@@ -173,6 +173,7 @@ final class MagazineNP_Core
 		require MAGAZINENP_THEME_DIR . '/core/dynamic-style.php';
 
 		require MAGAZINENP_THEME_DIR . '/core/class-magazinenp-widgets.php';
+		require MAGAZINENP_THEME_DIR . '/core/theme-update/class-magazinenp-theme-update.php';
 
 
 		if (is_admin()) {
