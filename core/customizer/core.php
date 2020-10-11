@@ -37,7 +37,7 @@ function magazinenp_get_default_options($key = '')
 
 	// Top Bar
 	$defaults['show_date_on_topbar'] = true;
-	$defaults['show_social_profile_on_topbar'] = true;
+	$defaults['show_social_profile_on_topbar'] = false;
 
 
 	// Mid Bar
