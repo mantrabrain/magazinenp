@@ -32,7 +32,7 @@ if ($bottom_header_sticky_status) {
 
 			<div class="search-bar">
 				<div class="container">
-					<div class="search-block off">
+					<div id="magazinenp-search-block" class="search-block off">
 						<?php get_search_form(); ?>
 					</div>
 				</div>

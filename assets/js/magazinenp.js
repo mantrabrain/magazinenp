@@ -1,8 +1,10 @@
 jQuery(function ($) {
+	var magazineNPLastFocusableEl;
 
 	var magazineNPJs = {
 
 		init: function () {
+			this.initEvents();
 			this.iniNav();
 			this.initSearch();
 			this.initGoToTop();
@@ -12,6 +14,17 @@ jQuery(function ($) {
 			this.initSticky();
 			this.initStickyMenu();
 			this.initAccessibility();
+			this.keyPressInit();
+		},
+		initEvents: function () {
+
+			var _this = this;
+			$(document).on('magazinenp_focus_inside_element', function (event, parent_id, focusable_el, trap_class) {
+				$('#' + parent_id).find(focusable_el).focus();
+				var el = document.getElementById(parent_id);
+				_this.trapFocus(el, trap_class);
+
+			});
 		},
 		iniNav: function () {
 
@@ -19,7 +32,7 @@ jQuery(function ($) {
 			$('.mnp-top-header-nav-menu-toggle').on('click', function () {
 				$('.mnp-top-header .mnp-top-header-nav').toggleClass('toggled-link-on');
 			});
-			$('.main-navigation').find('.sub-menu, .children').before('<span class="dropdown-toggle"><span class="dropdown-icon"></span></span>');
+			$('.main-navigation').find('.sub-menu, .children').before('<span class="dropdown-toggle"><button class="dropdown-icon"></button></span>');
 			$('.main-navigation').find('.sub-menu, .children').parent().addClass('dropdown-parent');
 			$('.main-navigation').find('.dropdown-toggle').on('click', function (e) {
 				e.preventDefault();
@@ -33,19 +46,38 @@ jQuery(function ($) {
 					$('.main-navigation').find('.dropdown-toggle.toggle-on').removeClass('toggle-on');
 				}
 			});
+			$('#navbarCollapse').on('shown.bs.collapse', function () {
+
+				var mnp_navbar_id = 'navbarCollapse';
+				$('#' + mnp_navbar_id).addClass('mnp-navbar-open');
+				$('#' + mnp_navbar_id).find('a').eq(0).focus();
+				$(document).trigger('magazinenp_focus_inside_element', [mnp_navbar_id, '#navbarCollapse a:first-child', 'show']);
+
+
+			});
+
 		},
 		initSearch: function () {
 			$('.search-toggle').on('click', function (event) {
+				var parentEvent = event;
+				var this_toggle = $(this);
 				var that = $('.search-toggle'),
 					wrapper = $('.search-block');
 
 				that.toggleClass('active');
 				wrapper.toggleClass('off').toggleClass('on');
-				$('.search-block.on').fadeIn();
+				$('.search-block.on').fadeIn("slow", function () {
+					if (this_toggle.hasClass('active')) {
+						if (that.is('.active') || $('.search-toggle')[0] === parentEvent.target) {
+							wrapper.find('.s').focus();
+						}
+						var mnp_search_box_id = 'magazinenp-search-block';
+						$('#' + mnp_search_box_id).addClass('magazinenp-searchbox-open');
+						$(document).trigger('magazinenp_focus_inside_element', [mnp_search_box_id, '#magazinenp-search-block input.form-control.s', 'on']);
+					}
+				});
 				$('.search-block.off').fadeOut();
-				if (that.is('.active') || $('.search-toggle')[0] === event.target) {
-					wrapper.find('.s').focus();
-				}
+
 
 				// search form escape while pressing ESC key
 				$(document).on('keydown', function (e) {
@@ -55,7 +87,10 @@ jQuery(function ($) {
 						$('.search-block.off').fadeOut();
 					}
 				});
+
+
 			});
+
 
 		},
 		initGoToTop: function () {
@@ -209,6 +244,46 @@ jQuery(function ($) {
 			main_menu_container.find('li.menu-item, li.page_item').focusout(function () {
 				$(this).removeClass('focus');
 
+			});
+		},
+		trapFocus: function (element, open_class) {
+			var focusableEls = element.querySelectorAll('a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input[type="text"]:not([disabled]), input[type="search"]:not([disabled]), input[type="radio"]:not([disabled]), input[type="checkbox"]:not([disabled]), select:not([disabled])'),
+				firstFocusableEl = focusableEls[0];
+			magazineNPLastFocusableEl = focusableEls[focusableEls.length - 1];
+			var KEYCODE_TAB = 9;
+			element.addEventListener('keydown', function (e) {
+				var isTabPressed = (e.key === 'Tab' || e.keyCode === KEYCODE_TAB);
+
+				if (!isTabPressed) {
+					return;
+				}
+				if (!element.classList.contains(open_class)) {
+					element.removeEventListener('keydown', this);
+					return;
+
+				}
+
+				if (e.shiftKey) /* shift + tab */ {
+					if (document.activeElement === firstFocusableEl) {
+						magazineNPLastFocusableEl.focus();
+						e.preventDefault();
+					}
+				} else /* tab */ {
+
+					if (document.activeElement === magazineNPLastFocusableEl) {
+						firstFocusableEl.focus();
+						e.preventDefault();
+					}
+				}
+
+			});
+		},
+		keyPressInit: function () {
+			$(document).keydown(function (e) {
+				var key_code = e.keyCode || e.which;
+				if (key_code === 27) {
+					$('button.navbar-toggler.menu-toggle:not(.collapsed)').trigger('click');
+				}
 			});
 		}
 

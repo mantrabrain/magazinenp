@@ -312,6 +312,12 @@
 	transition: all ease-in-out 0.2s;
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
+	border: none;
+	background: transparent;
+
+	&:focus {
+		outline: auto!important;
+	}
 }
 
 .main-navigation .dropdown-parent .dropdown-toggle .dropdown-icon:after {
