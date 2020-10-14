@@ -222,12 +222,20 @@ jQuery(function ($) {
 
 				var wpAdminBar = jQuery('#wpadminbar');
 				if (wpAdminBar.length) {
-					jQuery('.mnp-bottom-header.mnp-sticky').sticky({
-						topSpacing: wpAdminBar.height(),
-						zIndex: 99
-					});
+					var doc_width = $(document).width();
+					if (doc_width < 601) {
+						$('.mnp-bottom-header.mnp-sticky').sticky({
+							topSpacing: 0,
+							zIndex: 99
+						});
+					} else {
+						$('.mnp-bottom-header.mnp-sticky').sticky({
+							topSpacing: wpAdminBar.height(),
+							zIndex: 99
+						});
+					}
 				} else {
-					jQuery('.mnp-bottom-header.mnp-sticky').sticky({
+					$('.mnp-bottom-header.mnp-sticky').sticky({
 						topSpacing: 0,
 						zIndex: 99
 					});
