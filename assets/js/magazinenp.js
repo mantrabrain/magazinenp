@@ -66,7 +66,7 @@ jQuery(function ($) {
 
 				that.toggleClass('active');
 				wrapper.toggleClass('off').toggleClass('on');
-				$('.search-block.on').fadeIn("slow", function () {
+				$('.search-block.on').fadeIn('slow', function () {
 					if (this_toggle.hasClass('active')) {
 						if (that.is('.active') || $('.search-toggle')[0] === parentEvent.target) {
 							wrapper.find('.s').focus();
