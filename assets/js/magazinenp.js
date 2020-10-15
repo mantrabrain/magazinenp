@@ -98,7 +98,7 @@ jQuery(function ($) {
 						that.removeClass('active');
 						wrapper.addClass('off').removeClass('on');
 						$('.search-block.off').fadeOut();
-						$('.navigation-bar-top').find('button.search-toggle').focus();
+						this_toggle.focus();
 					}
 				});
 
