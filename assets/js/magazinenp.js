@@ -57,7 +57,7 @@ jQuery(function ($) {
 
 			$('.navbar-toggler.menu-toggle').on('click', function () {
 				var expanded = $(this).attr('aria-expanded');
-				if (expanded === "true") {
+				if (expanded === 'true') {
 					if ($('.mnp-bottom-header').length > 0) {
 						if ($('#masthead.site-header').find('#sticky-wrapper').length > 0) {
 							var bottom_header_height = $('.mnp-bottom-header .navigation-bar-top').height();
