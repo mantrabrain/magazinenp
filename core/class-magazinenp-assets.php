@@ -26,7 +26,7 @@ class MagazineNP_Assets
 
         wp_enqueue_script('jquery-match-height', get_template_directory_uri() . '/assets/vendor/match-height/jquery.matchHeight-min.js', array('jquery'), '0.7.2', true);
 
-        wp_enqueue_style('magazinenp-main-style', get_template_directory_uri() . '/assets/css/magazinenp.css');
+        wp_enqueue_style('magazinenp-main-style', get_template_directory_uri() . '/assets/css/magazinenp.css', array(), MAGAZINENP_THEME_VERSION);
 
         wp_enqueue_style('magazinenp-style', get_stylesheet_uri());
 
@@ -41,7 +41,7 @@ class MagazineNP_Assets
 
         wp_enqueue_script('jquery-sticky', get_template_directory_uri() . '/assets/vendor/sticky/jquery.sticky.js', array('jquery'), '1.0.4', true);
 
-        wp_enqueue_script('magazinenp-scripts', get_template_directory_uri() . '/assets/js/magazinenp.js', array('jquery'), false, true);
+        wp_enqueue_script('magazinenp-scripts', get_template_directory_uri() . '/assets/js/magazinenp.js', array('jquery'), MAGAZINENP_THEME_VERSION, true);
     }
 
 
