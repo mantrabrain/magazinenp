@@ -47,13 +47,26 @@ jQuery(function ($) {
 				}
 			});
 			$('#navbarCollapse').on('shown.bs.collapse', function () {
-
 				var mnp_navbar_id = 'navbarCollapse';
 				$('#' + mnp_navbar_id).addClass('mnp-navbar-open');
 				$('#' + mnp_navbar_id).find('a').eq(0).focus();
 				$(document).trigger('magazinenp_focus_inside_element', [mnp_navbar_id, '#navbarCollapse a:first-child', 'show']);
 
 
+			});
+
+			$('.navbar-toggler.menu-toggle').on('click', function () {
+				var expanded = $(this).attr('aria-expanded');
+				if (expanded === "true") {
+					if ($('.mnp-bottom-header').length > 0) {
+						if ($('#masthead.site-header').find('#sticky-wrapper').length > 0) {
+							var bottom_header_height = $('.mnp-bottom-header .navigation-bar-top').height();
+							$('#masthead.site-header').find('#sticky-wrapper').css({
+								'height': bottom_header_height + 'px'
+							});
+						}
+					}
+				}
 			});
 
 		},
@@ -85,6 +98,7 @@ jQuery(function ($) {
 						that.removeClass('active');
 						wrapper.addClass('off').removeClass('on');
 						$('.search-block.off').fadeOut();
+						$('.navigation-bar-top').find('button.search-toggle').focus();
 					}
 				});
 
@@ -290,7 +304,7 @@ jQuery(function ($) {
 			$(document).keydown(function (e) {
 				var key_code = e.keyCode || e.which;
 				if (key_code === 27) {
-					$('button.navbar-toggler.menu-toggle:not(.collapsed)').trigger('click');
+					$('button.navbar-toggler.menu-toggle:not(.collapsed)').trigger('click').focus();
 				}
 			});
 		}
