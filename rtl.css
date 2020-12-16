@@ -140,14 +140,37 @@ blockquote:before {
 
 .main-navigation .dropdown-menu,
 .main-navigation li ul {
-	left: auto;
-	right: 0;
+	left: unset;
 }
 
 .main-navigation ul li ul li ul,
 .headernav .main-navigation ul li ul li ul {
 	left: auto;
 	right: 198px;
+}
+
+.main-navigation ul > li > ul {
+	right: -10000px;
+	left: unset;
+}
+
+.main-navigation ul > li:hover > ul, .main-navigation ul > li.focus > ul {
+	right: 0;
+	left: unset;
+}
+
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul,
+.main-navigation ul ul ul li:hover > ul,
+.main-navigation ul ul ul li.focus > ul,
+.main-navigation ul ul ul ul li:hover > ul,
+.main-navigation ul ul ul ul li.focus > ul,
+.main-navigation ul ul ul ul ul li:hover > ul,
+.main-navigation ul ul ul ul ul li.focus > ul {
+	right: 100%;
+	left: unset;
+
 }
 
 .search-block {
@@ -474,6 +497,10 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	text-align: right !important;
 }
 
+.navbar .mnp-home-icon a {
+	float: right;
+}
+
 @media (max-width: 991px) {
 	.navigation-bar .container {
 		padding-left: 30px;
@@ -494,7 +521,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 
 	.main-navigation .dropdown-parent.menu-item-has-children > a,
 	.main-navigation .dropdown-parent.page_item_has_children > a {
-		padding-right: 30px;
+		padding-right: 20px;
 		padding-left: 80px;
 	}
 

@@ -136,6 +136,7 @@
 	border-bottom: 4px solid $primary_color;
 
 	.mnp-home-icon {
+		display: none;
 		height: 1px;
 		width: 65px;
 		float: left;
@@ -316,7 +317,7 @@
 	background: transparent;
 
 	&:focus {
-		outline: auto!important;
+		outline: auto !important;
 	}
 }
 
@@ -352,14 +353,14 @@
 }
 
 .main-navigation {
-	ul ul li:hover ul,
-	ul ul li.focus ul,
-	ul ul ul li:hover ul,
-	ul ul ul li.focus ul,
-	ul ul ul ul li:hover ul,
-	ul ul ul ul li.focus ul,
-	ul ul ul ul ul li:hover ul,
-	ul ul ul ul ul li.focus ul {
+	ul ul li:hover > ul,
+	ul ul li.focus > ul,
+	ul ul ul li:hover > ul,
+	ul ul ul li.focus > ul,
+	ul ul ul ul li:hover > ul,
+	ul ul ul ul li.focus > ul,
+	ul ul ul ul ul li:hover > ul,
+	ul ul ul ul ul li.focus > ul {
 		opacity: 1;
 		top: 100%;
 		margin-top: 0;
