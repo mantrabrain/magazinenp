@@ -503,7 +503,8 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 
 @media (max-width: 991px) {
 	.navigation-bar .container {
-		padding-left: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	.navbar-ad-section {
@@ -513,6 +514,10 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	.navigation-bar-top .search-toggle {
 		right: auto;
 		left: 30px;
+	}
+
+	.mnp-top-header .mnp-top-header-nav .mnp-top-header-nav-menu-toggle {
+		right: 15px;
 	}
 
 	.search-block {
@@ -561,7 +566,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	.main-navigation ul li ul li.page_item_has_children > a,
 	.main-navigation ul li ul li.dropdown-parent.menu-item-has-children > a,
 	.main-navigation ul li ul li.dropdown-parent.page_item_has_children > a {
-		padding-right: 60px;
+		padding-right: 40px;
 	}
 
 	.main-navigation ul li ul li ul li a,
@@ -569,7 +574,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	.main-navigation ul li ul li ul li.page_item_has_children > a,
 	.main-navigation ul li ul li ul li.dropdown-parent.menu-item-has-children > a,
 	.main-navigation ul li ul li ul li.dropdown-parent.page_item_has_children > a {
-		padding-right: 90px;
+		padding-right: 60px;
 	}
 
 	.main-navigation ul li ul li ul li ul li a,
@@ -577,7 +582,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	.main-navigation ul li ul li ul li ul li.page_item_has_children > a,
 	.main-navigation ul li ul li ul li ul li.dropdown-parent.menu-item-has-children > a,
 	.main-navigation ul li ul li ul li ul li.dropdown-parent.page_item_has_children > a {
-		padding-right: 120px;
+		padding-right: 90px;
 	}
 
 	.main-navigation ul li ul li ul li ul li ul li a,
@@ -585,7 +590,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	.main-navigation ul li ul li ul li ul li ul li.page_item_has_children > a,
 	.main-navigation ul li ul li ul li ul li ul li.dropdown-parent.menu-item-has-children > a,
 	.main-navigation ul li ul li ul li ul li ul li.dropdown-parent.page_item_has_children > a {
-		padding-right: 150px;
+		padding-right: 120px;
 	}
 
 	#primary.content-area,
@@ -604,6 +609,11 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 
 	.site-info .mnp-social-profiles, .site-info .copyright {
 		text-align: center !important;
+	}
+
+	.main-navigation ul > li > ul {
+		right: unset !important;
+		left: unset !important;
 	}
 }
 
