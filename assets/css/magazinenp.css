@@ -1840,6 +1840,26 @@ input.s {
 .site-footer .widget-area .widget.widget_media_gallery {
   padding-bottom: 0; }
 
+.magazinenp-author-box {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 35px 25px 25px; }
+  .magazinenp-author-box .author-avatar {
+    float: left;
+    margin: 0 10px 10px 0; }
+    .magazinenp-author-box .author-avatar img {
+      border: 1px solid #ddd; }
+  .magazinenp-author-box .author-title {
+    color: #333;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize; }
+
 .navigation.post-navigation .nav-links {
   position: relative;
   background-color: #fff;

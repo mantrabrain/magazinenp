@@ -501,6 +501,11 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	float: right;
 }
 
+.magazinenp-author-box .author-avatar {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
 @media (max-width: 991.5px) {
 	.navigation-bar .container {
 		padding-left: 20px;

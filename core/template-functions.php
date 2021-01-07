@@ -96,6 +96,36 @@ if (!function_exists('magazinenp_header_style')) :
 		<?php
 	}
 endif;
+if (!function_exists('magazinenp_author_box')):
+	function magazinenp_author_box()
+	{
+		global $post;
+		$author_id = $post->post_author;
+		$author_avatar = get_avatar($author_id, '125');
+		$author_nickname = get_the_author_meta('display_name');
+		$show_author_box = (boolean)magazinenp_get_option('show_author_box');
+		if (!$show_author_box) {
+			return;
+		}
+		?>
+		<div class="magazinenp-author-box clearfix">
+			<div class="author-avatar">
+				<a class="author-image"
+				   href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo $author_avatar; ?></a>
+			</div><!-- .author-avatar -->
+			<div class="author-desc-wrapper">
+				<a class="author-title"
+				   href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
+					<?php echo esc_html($author_nickname); ?></a>
+				<div class="author-description"><p><?php echo get_the_author_meta('description'); ?></p></div>
+				<a href="<?php echo esc_url(get_the_author_meta('user_url')); ?>"
+				   target="_blank"><?php echo esc_url(get_the_author_meta('user_url')); ?></a>
+			</div><!-- .author-desc-wrapper-->
+		</div><!--magazinenp-author-wrapper-->
+		<?php
+	}
+endif;
+
 if (!function_exists('magazinenp_get_excerpt')) {
 	function magazinenp_get_excerpt()
 	{

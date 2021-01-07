@@ -55,3 +55,25 @@ $wp_customize->add_control(
 
 
 ));
+
+
+// Setting author_box.
+$wp_customize->add_setting(magazinenp_get_customizer_id('show_author_box'),
+	array(
+		'default' => $default['show_author_box'],
+		'sanitize_callback' => 'magazinenp_sanitize_checkbox',
+
+	)
+);
+
+$wp_customize->add_control(
+	new MagazineNP_Customizer_Control_Switch(
+		$wp_customize,
+		magazinenp_get_customizer_id('show_author_box'),
+		array(
+			'label' => esc_html__('Show/Hide Author Box', 'magazinenp'),
+			'section' => 'magazinenp_section_single_post_content_options',
+			'priority' => 140,
+		)
+	)
+);
