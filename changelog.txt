@@ -1,3 +1,7 @@
+= 1.1.5 |  2021/01/07 =
+- Fixed - Minor fixes
+- Added - Author box enable/disable option 
+- Fixed - Responsive design issue & RTL design issue fixed
 = 1.1.4 |  2020/10/15 =
 - Fixed - Minor fixes for child theme
 - Fixed - Minor design issue fixed
