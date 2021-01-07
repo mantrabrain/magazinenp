@@ -501,7 +501,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	float: right;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
 	.navigation-bar .container {
 		padding-left: 20px;
 		padding-right: 20px;
