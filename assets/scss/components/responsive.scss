@@ -25,7 +25,8 @@
 	}
 }
 
-@media (max-width: 991px) {
+
+@media (max-width: 991.5px) {
 	.navbar-brand {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -249,9 +250,6 @@
 		position: relative !important;
 		top: auto !important;
 	}
-}
-
-@media (max-width: 991px) {
 	h1 {
 		font-size: 32px;
 	}

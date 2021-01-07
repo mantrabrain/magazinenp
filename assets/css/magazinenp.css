@@ -3530,7 +3530,7 @@ body.title-style5 .magazinenp-title {
   .featured-section .featured-slider .post-block .entry-header {
     padding: 15px 15px 5px; } }
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
   .navbar-brand {
     padding-top: 0;
     padding-bottom: 0; }
@@ -3702,9 +3702,7 @@ body.title-style5 .magazinenp-title {
   .widget-area .sticky-wrapper.is-sticky .sticky-sidebar {
     width: 100% !important;
     position: relative !important;
-    top: auto !important; } }
-
-@media (max-width: 991px) {
+    top: auto !important; }
   h1 {
     font-size: 32px; }
   h2 {
