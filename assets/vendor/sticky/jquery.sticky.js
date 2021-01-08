@@ -263,7 +263,7 @@
     window.attachEvent('onresize', resizer);
   }
 
-  $.fn.sticky = function(method) {
+  $.fn.MNPsticky = function(method) {
     if (methods[method]) {
       return methods[method].apply(this, slice.call(arguments, 1));
     } else if (typeof method === 'object' || !method ) {
@@ -273,7 +273,7 @@
     }
   };
 
-  $.fn.unstick = function(method) {
+  $.fn.MNPunstick = function(method) {
     if (methods[method]) {
       return methods[method].apply(this, slice.call(arguments, 1));
     } else if (typeof method === 'object' || !method ) {

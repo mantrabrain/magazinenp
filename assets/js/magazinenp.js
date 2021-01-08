@@ -224,9 +224,9 @@ jQuery(function ($) {
 
 				if (doc_width >= 992) {
 					if (wp_adminBar) {
-						$('.sticky-sidebar').sticky({topSpacing: top_spacing, bottomSpacing: after_height});
+						$('.sticky-sidebar').MNPsticky({topSpacing: top_spacing, bottomSpacing: after_height});
 					} else {
-						$('.sticky-sidebar').sticky({topSpacing: 20, bottomSpacing: after_height});
+						$('.sticky-sidebar').MNPsticky({topSpacing: 20, bottomSpacing: after_height});
 					}
 				}
 			});
@@ -238,18 +238,18 @@ jQuery(function ($) {
 				if (wpAdminBar.length) {
 					var doc_width = $(document).width();
 					if (doc_width < 601) {
-						$('.mnp-bottom-header.mnp-sticky').sticky({
+						$('.mnp-bottom-header.mnp-sticky').MNPsticky({
 							topSpacing: 0,
 							zIndex: 99
 						});
 					} else {
-						$('.mnp-bottom-header.mnp-sticky').sticky({
+						$('.mnp-bottom-header.mnp-sticky').MNPsticky({
 							topSpacing: wpAdminBar.height(),
 							zIndex: 99
 						});
 					}
 				} else {
-					$('.mnp-bottom-header.mnp-sticky').sticky({
+					$('.mnp-bottom-header.mnp-sticky').MNPsticky({
 						topSpacing: 0,
 						zIndex: 99
 					});
