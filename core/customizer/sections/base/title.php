@@ -18,7 +18,6 @@ $wp_customize->add_control(
     magazinenp_get_customizer_id('title_style'), array(
     'label' => __('Title Layout', 'magazinenp'),
     'section' => 'magazinenp_theme_base_title_option',
-    'active_callback' => 'magazinenp_is_ticker_enabled',
     'type' => 'select',
     'choices' => array(
         'style1' => esc_html__('Style 1', 'magazinenp'),
