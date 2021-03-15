@@ -10,6 +10,7 @@ include_once 'base/layouts.php';
 include_once 'base/breadcrumb.php';
 include_once 'base/date.php';
 include_once 'base/title.php';
+include_once 'base/image.php';
 include_once 'base/mnp-cat-color.php';
 include_once 'base/social.php';
 include_once 'base/sidebars.php';

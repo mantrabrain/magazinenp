@@ -19,6 +19,9 @@ function magazinenp_get_default_options($key = '')
 	// Title Style
 	$defaults['title_style'] = 'style4';
 
+	// Image Effect
+	$defaults['image_hover_effect'] = 'theme_default';
+
 	// Social Links
 
 	$defaults['social_profile_style'] = 'official';

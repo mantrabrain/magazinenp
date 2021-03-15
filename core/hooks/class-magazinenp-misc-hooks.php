@@ -43,8 +43,8 @@ class MagazineNP_Miscellaneous_Hooks
 			$classes[] = 'magazinenp-theme-style-home-page';
 		}
 
-		$classes[] = 'title-' . magazinenp_get_option('title_style');
-		$classes[] = 'magazinenp-image-hover-effect';
+		$classes[] = 'title-' . esc_attr(magazinenp_get_option('title_style'));
+		$classes[] = 'magazinenp-image-hover-effect-'.esc_attr(magazinenp_get_option('image_hover_effect'));
 		$classes[] = esc_attr(magazinenp_base_sidebar_layout());
 		$classes[] = esc_attr(magazinenp_get_option('content_layout'));
 		// Adds a class of hfeed to non-singular pages.
