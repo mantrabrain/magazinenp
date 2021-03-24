@@ -74,3 +74,27 @@ $wp_customize->add_control(
 		)
 	)
 );
+
+
+
+$wp_customize->add_setting(magazinenp_get_customizer_id('bottom_header_border_status'),
+	array(
+		'default' => $default['bottom_header_border_status'],
+		'sanitize_callback' => 'magazinenp_sanitize_checkbox',
+
+	)
+);
+
+$wp_customize->add_control(
+	new MagazineNP_Customizer_Control_Switch(
+		$wp_customize,
+		magazinenp_get_customizer_id('bottom_header_border_status'),
+		array(
+			'label' => esc_html__('Enable/Disable Border', 'magazinenp'),
+			'section' => 'magazinenp_section_bottom_header_options',
+			'priority' => 60,
+
+
+		)
+	)
+);

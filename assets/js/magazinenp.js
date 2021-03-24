@@ -156,6 +156,7 @@ jQuery(function ($) {
 			if ($('.owl-carousel').length < 1) {
 				return;
 			}
+			$('.owl-carousel.mnp-owl-before').find('.item').removeClass('col-sm-6 col-lg-3');
 			$('.owl-carousel.mnp-owl-before').removeClass('mnp-owl-before');
 			$('.featured-slider .owl-carousel').owlCarousel({
 				loop: true,

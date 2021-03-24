@@ -18,14 +18,14 @@ if (magazinenp_get_option('post_block_post_from') == 'category') {
 
 $magazinenp_post_block_post = new WP_Query($magazinenp_post_block_post_args);
 
-$grid_class = $is_carousel ? 'post-col item' : 'col-sm-6 col-lg-3 post-col';
+$grid_class = $is_carousel ? 'col-sm-6 col-lg-3 post-col item' : 'col-sm-6 col-lg-3 post-col';
 ?>
 
 <section class="related-posts">
 	<?php magazinenp_title_html('h2', 'magazinenp-title', magazinenp_get_option('post_block_heading')); ?>
 	<div class="row gutter-parent-10">
 		<?php
-		echo $is_carousel ? '<div class="owl-carousel mnp-owl-before">' : '';
+		echo $is_carousel ? '<div class="owl-carousel mnp-owl-before mnp-flex">' : '';
 		while ($magazinenp_post_block_post->have_posts()) {
 			$magazinenp_post_block_post->the_post(); ?>
 			<div class="<?php echo esc_attr($grid_class); ?>">

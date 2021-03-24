@@ -1,10 +1,12 @@
 <?php
 $bottom_header_sticky_status = (boolean)magazinenp_get_option('bottom_header_sticky_status');
+$bottom_header_border_status = (boolean)magazinenp_get_option('bottom_header_border_status');
 $class = 'mnp-bottom-header navbar navbar-expand-lg d-block';
 
 if ($bottom_header_sticky_status) {
 	$class .= " mnp-sticky";
 }
+$class.= $bottom_header_border_status ?: ' no-border';
 ?>
 <nav class="<?php echo esc_attr($class); ?>">
 	<div class="navigation-bar">

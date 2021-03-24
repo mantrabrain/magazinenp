@@ -52,6 +52,7 @@ function magazinenp_get_default_options($key = '')
 	$defaults['bottom_header_show_home_icon'] = true;
 	$defaults['bottom_header_show_search_icon'] = true;
 	$defaults['bottom_header_sticky_status'] = true;
+	$defaults['bottom_header_border_status'] = true;
 
 	//  Popular Tags
 	$defaults['popular_tags_heading'] = esc_html__('Popular Tags', 'magazinenp');

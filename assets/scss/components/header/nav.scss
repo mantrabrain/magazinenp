@@ -149,6 +149,13 @@
 	}
 }
 
+.mnp-bottom-header{
+	&.no-border{
+		.navbar-main{
+			border-bottom:none;
+		}
+	}
+}
 .navbar .nav-search {
 	position: absolute;
 	top: 0;
