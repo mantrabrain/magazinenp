@@ -1,6 +1,7 @@
 <?php
 
 $news_ticker_post_category = absint(magazinenp_get_option('news_ticker_post_category'));
+$news_ticker_layout = magazinenp_get_option('news_ticker_layout');
 
 $magazinenp_ticker_args = array(
 	'posts_per_page' => 5,
@@ -15,7 +16,7 @@ if (magazinenp_get_option('news_ticker_post_from') == 'category') {
 
 $magazinenp_ticker_data = new WP_Query($magazinenp_ticker_args); ?>
 
-	<div class="mnp-news-ticker">
+	<div class="mnp-news-ticker <?php echo esc_attr($news_ticker_layout); ?>">
 		<div class="container">
 			<div class="row mnp-news-ticker-box clearfix">
 				<div class="col-sm-auto">

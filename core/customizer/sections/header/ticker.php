@@ -91,3 +91,21 @@ $wp_customize->add_control(magazinenp_get_customizer_id('news_ticker_thumbnail_t
 	),
 	'priority' => 100
 ));
+
+
+$wp_customize->add_setting(magazinenp_get_customizer_id('news_ticker_layout'), array(
+	'default' => $default['news_ticker_layout'],
+	'sanitize_callback' => 'magazinenp_sanitize_choices',
+	'capability' => 'edit_theme_options'
+));
+$wp_customize->add_control(magazinenp_get_customizer_id('news_ticker_layout'), array(
+	'label' => __('Ticker Layout', 'magazinenp'),
+	'section' => 'magazinenp_section_news_ticker_options',
+	'type' => 'radio',
+	'checked' => 'checked',
+	'choices' => array(
+		'default' => __('Default', 'magazinenp'),
+		'layout_1' => __('Layout 1', 'magazinenp'),
+	),
+	'priority' => 120
+));
