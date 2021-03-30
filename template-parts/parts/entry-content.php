@@ -9,8 +9,6 @@
 			'after' => '</div>'
 		));
 	} else {
-		?>
-		<p><?php echo magazinenp_get_excerpt(); ?></p>
-		<?php
+		magazinenp_the_excerpt();
 	} ?>
 </div>

@@ -129,7 +129,9 @@ endif;
 if (!function_exists('magazinenp_get_excerpt')) {
 	function magazinenp_get_excerpt()
 	{
-		return apply_filters('magazinenp_excerpt', get_the_excerpt());
+		$excerpt = apply_filters('magazinenp_excerpt', get_the_excerpt());
+
+		return apply_filters('the_excerpt', $excerpt);
 	}
 }
 if (!function_exists('magazinenp_the_excerpt')) {
