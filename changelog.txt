@@ -1,3 +1,9 @@
+= 1.1.6 |  2021/04/01 =
+- Fixed - Excerpt issue fixed
+- Fixed - Author Box issue 
+- Fixed - Sticky issue fixed
+- Added - Image effect added on base options
+- Added - Menu Border show/hide option added
 = 1.1.5 |  2021/01/07 =
 - Fixed - Minor fixes
 - Added - Author box enable/disable option 
