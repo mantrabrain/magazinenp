@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: MagazineNP 1.1.5\n"
+"Project-Id-Version: MagazineNP 1.1.6\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2021-01-09 13:35:21+00:00\n"
+"POT-Creation-Date: 2021-08-11 07:46:43+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,29 +130,29 @@ msgstr ""
 msgid "off"
 msgstr ""
 
-#: core/customizer/core.php:54
+#: core/customizer/core.php:58
 #: core/customizer/sections/header/popular-tags.php:5 core/functions.php:101
 msgid "Popular Tags"
 msgstr ""
 
-#: core/customizer/core.php:58
+#: core/customizer/core.php:62
 msgid "News Flash"
 msgstr ""
 
-#: core/customizer/core.php:101
+#: core/customizer/core.php:107
 msgid "Popular Stories"
 msgstr ""
 
-#: core/customizer/core.php:122
+#: core/customizer/core.php:128
 #: core/customizer/sections/single-post/related-post.php:5
 msgid "Related Posts"
 msgstr ""
 
-#: core/customizer/core.php:137
+#: core/customizer/core.php:143
 msgid "You Missed"
 msgstr ""
 
-#: core/customizer/core.php:146
+#: core/customizer/core.php:152
 msgid "Copyright &copy; All rights reserved"
 msgstr ""
 
@@ -233,6 +233,23 @@ msgstr ""
 msgid "Enable/Disable Go to Top"
 msgstr ""
 
+#: core/customizer/sections/base/image.php:4
+msgid "Image"
+msgstr ""
+
+#: core/customizer/sections/base/image.php:19
+msgid "Image Hover Effect"
+msgstr ""
+
+#: core/customizer/sections/base/image.php:23
+msgid "None"
+msgstr ""
+
+#: core/customizer/sections/base/image.php:24
+#: core/customizer/sections/base/social.php:25
+msgid "Theme Default"
+msgstr ""
+
 #: core/customizer/sections/base/layouts.php:4
 msgid "Layouts"
 msgstr ""
@@ -273,10 +290,6 @@ msgstr ""
 
 #: core/customizer/sections/base/social.php:21
 msgid " Social Profile Style"
-msgstr ""
-
-#: core/customizer/sections/base/social.php:25
-msgid "Theme Default"
 msgstr ""
 
 #: core/customizer/sections/base/social.php:26
@@ -491,6 +504,10 @@ msgstr ""
 msgid "Enable/Disable Sticky"
 msgstr ""
 
+#: core/customizer/sections/header/bottom.php:93
+msgid "Enable/Disable Border"
+msgstr ""
+
 #: core/customizer/sections/header/media.php:4 core/functions.php:79
 #: core/theme-update/update-functions.php:27
 msgid "Header Media"
@@ -501,11 +518,11 @@ msgstr ""
 msgid "Mid Bar"
 msgstr ""
 
-#: core/customizer/sections/header/mid.php:24
+#: core/customizer/sections/header/mid.php:27
 msgid "Advertisement Image"
 msgstr ""
 
-#: core/customizer/sections/header/mid.php:32
+#: core/customizer/sections/header/mid.php:37
 msgid "Advertisement Image Url"
 msgstr ""
 
@@ -549,6 +566,21 @@ msgstr ""
 
 #: core/customizer/sections/header/ticker.php:90
 msgid "Hide Thumbnail"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:102
+msgid "Ticker Layout"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:107
+#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:110
+msgid "Default"
+msgstr ""
+
+#: core/customizer/sections/header/ticker.php:108
+#: core/widgets/magazinenp-block-post-widget.php:47
+#: core/widgets/magazinenp-grid-post-widget.php:47
+msgid "Layout 1"
 msgstr ""
 
 #: core/customizer/sections/header/top.php:5 core/functions.php:85
@@ -978,10 +1010,6 @@ msgstr ""
 #: core/widgets/magazinenp-block-post-widget.php:44
 #: core/widgets/magazinenp-grid-post-widget.php:44
 msgid "Layout"
-msgstr ""
-
-#: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:110
-msgid "Default"
 msgstr ""
 
 #: core/meta-boxes/class-magazinenp-meta-box-page-settings.php:136
@@ -1514,11 +1542,6 @@ msgstr ""
 msgid "Posts From Category"
 msgstr ""
 
-#: core/widgets/magazinenp-block-post-widget.php:47
-#: core/widgets/magazinenp-grid-post-widget.php:47
-msgid "Layout 1"
-msgstr ""
-
 #: core/widgets/magazinenp-block-post-widget.php:48
 #: core/widgets/magazinenp-grid-post-widget.php:48
 msgid "Layout 2"
@@ -1602,7 +1625,7 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: template-parts/header/bottom.php:24
+#: template-parts/header/bottom.php:26
 msgid "Toggle navigation"
 msgstr ""
 
