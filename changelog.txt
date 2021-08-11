@@ -1,4 +1,4 @@
-= 1.1.6 |  2021/04/01 =
+= 1.1.6 |  2021/08/11 =
 - Fixed - Excerpt issue fixed
 - Fixed - Author Box issue 
 - Fixed - Sticky issue fixed
