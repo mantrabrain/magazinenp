@@ -1,4 +1,6 @@
 /* jshint node:true */
+const sass = require('node-sass');
+
 module.exports = function (grunt) {
     'use strict';
 
@@ -63,8 +65,10 @@ module.exports = function (grunt) {
         // Compile all .scss files.
         sass: {
             options: {
-                sourceMap: true
-            },
+                sourceMap: true,
+				implementation: sass,
+
+			},
             compile: {
                 files: [{
                     expand: true,
