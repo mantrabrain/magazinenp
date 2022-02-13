@@ -21,6 +21,22 @@ class MagazineNP_Column_Post_Widget extends MagazineNP_Widget_Base
 				'default' => esc_html__('Column Post', 'magazinenp'),
 
 			),
+			'post_from' => array(
+				'name' => 'post_from',
+				'title' => esc_html__('Post From', 'magazinenp'),
+				'type' => 'radio',
+				'default' => 'latest',
+				'choices' => array(
+					'latest' => esc_html__('Latest Post', 'magazinenp'),
+					'category' => esc_html__('Posts From Category', 'magazinenp'),
+				)
+			),
+			'category' => array(
+				'name' => 'category',
+				'title' => esc_html__('Category', 'magazinenp'),
+				'type' => 'dropdown_categories'
+
+			),
 			'number_of_post' => array(
 				'name' => 'number_of_post',
 				'title' => esc_html__('Number of posts', 'magazinenp'),
@@ -57,12 +73,19 @@ class MagazineNP_Column_Post_Widget extends MagazineNP_Widget_Base
 		$number = isset($instance['number_of_post']) ? absint($instance['number_of_post']) : 4;
 		$hide_category = isset($instance['hide_category']) ? (boolean)$instance['hide_category'] : false;
 		$hide_post_meta = isset($instance['hide_post_meta']) ? (boolean)$instance['hide_post_meta'] : false;
+		$category = isset($instance['category']) ? $instance['category'] : '';
+		$post_from = empty($instance['post_from']) ? '' : $instance['post_from'];
+		$mnp_query_args = array(
+			'posts_per_page' => $number,
+			'post_type' => array('post'),
+			'post__not_in' => get_option('sticky_posts'),
+		);
+
+		if ($post_from == 'category' && '' != $category) {
+			$mnp_query_args['category__in'] = $category;
+		}
 		$get_featured_posts = new WP_Query(
-			array(
-				'posts_per_page' => $number,
-				'post_type' => array('post'),
-				'post__not_in' => get_option('sticky_posts'),
-			)
+			$mnp_query_args
 		);
 
 		echo $args['before_widget']; ?>

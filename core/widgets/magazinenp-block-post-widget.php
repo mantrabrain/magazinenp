@@ -31,7 +31,6 @@ class MagazineNP_Block_Post_Widget extends MagazineNP_Widget_Base
                     'latest' => esc_html__('Latest Post', 'magazinenp'),
                     'category' => esc_html__('Posts From Category', 'magazinenp'),
                 )
-
             ),
             'category' => array(
                 'name' => 'category',
