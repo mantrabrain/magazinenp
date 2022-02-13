@@ -1,3 +1,5 @@
+= 1.1.9 |  2022/02/13 =
+- Added - Post Column Widget category dropdown option
 = 1.1.8 |  2022/01/26 =
 - Tested - 5.9 Version compatibility
 = 1.1.7 |  2021/09/19 =
