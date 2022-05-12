@@ -611,7 +611,7 @@ if (!function_exists('magazinenp_social_profiles_config')) :
 			'tiktok' => array(
 				'title' => __('Tiktok', 'magazinenp'),
 				'icon' => 'fab fa-tiktok',
-				'default' => 'tiktok.com'
+				'default' => ''
 
 
 			)
