@@ -121,7 +121,7 @@ if (!function_exists('magazinenp_header_ordering')) {
 
 		try {
 			$ordering = !empty($ordering) && is_string($ordering) ? json_decode($ordering, true) : $default_orders;
-		
+
 		} catch (Exception $e) {
 
 			$ordering = $default_orders;
@@ -605,6 +605,13 @@ if (!function_exists('magazinenp_social_profiles_config')) :
 				'title' => __('Pinterest', 'magazinenp'),
 				'icon' => 'fab fa-pinterest',
 				'default' => 'pinterest.com'
+
+
+			),
+			'tiktok' => array(
+				'title' => __('Tiktok', 'magazinenp'),
+				'icon' => 'fab fa-tiktok',
+				'default' => 'tiktok.com'
 
 
 			)
