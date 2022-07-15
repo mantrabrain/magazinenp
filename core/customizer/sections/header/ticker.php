@@ -109,3 +109,21 @@ $wp_customize->add_control(magazinenp_get_customizer_id('news_ticker_layout'), a
 	),
 	'priority' => 120
 ));
+
+//Ticker Direction
+$wp_customize->add_setting(magazinenp_get_customizer_id('news_ticker_direction'), array(
+	'default' => $default['news_ticker_direction'],
+	'sanitize_callback' => 'magazinenp_sanitize_choices',
+	'capability' => 'edit_theme_options'
+));
+$wp_customize->add_control(magazinenp_get_customizer_id('news_ticker_direction'), array(
+	'label' => __('Ticker Direction', 'magazinenp'),
+	'section' => 'magazinenp_section_news_ticker_options',
+	'type' => 'radio',
+	'checked' => 'checked',
+	'choices' => array(
+		'left' => __('Left to Right', 'magazinenp'),
+		'right' => __('Right to Left', 'magazinenp'),
+	),
+	'priority' => 120
+));

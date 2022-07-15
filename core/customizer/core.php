@@ -71,6 +71,8 @@ function magazinenp_get_default_options($key = '')
 
 	$defaults['news_ticker_layout'] = 'default';
 
+	$defaults['news_ticker_direction'] = 'left';
+
 	// end of ticker
 
 	$defaults['header_ordering'] = magazinenp_header_ordering();

@@ -129,6 +129,7 @@ jQuery(function ($) {
 			if ($('.mnp-news-ticker-slide').length < 1) {
 				return;
 			}
+			let direction = magazinenp_script.ticker_direction === "right" ? "right" : "left";
 			$('.mnp-news-ticker-slide').marquee({
 				//speed in milliseconds of the marquee
 				speed: 50,
@@ -137,7 +138,7 @@ jQuery(function ($) {
 				//time in milliseconds before the marquee will start animating
 				delayBeforeStart: 0,
 				//'left' or 'right'
-				direction: 'left',
+				direction: direction,
 				//true or false - should the marquee be duplicated to show an effect of continues flow
 				duplicated: true,
 				pauseOnHover: true,
