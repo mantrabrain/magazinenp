@@ -122,8 +122,8 @@ $wp_customize->add_control(magazinenp_get_customizer_id('news_ticker_direction')
 	'type' => 'radio',
 	'checked' => 'checked',
 	'choices' => array(
-		'left' => __('Left to Right', 'magazinenp'),
-		'right' => __('Right to Left', 'magazinenp'),
+		'left' => __('Left', 'magazinenp'),
+		'right' => __('Right', 'magazinenp'),
 	),
 	'priority' => 120
 ));
