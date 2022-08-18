@@ -9,6 +9,7 @@ ol {
 	padding-left: 0;
 	padding-right: 20px;
 }
+
 blockquote {
 	padding-left: 0;
 	padding-right: 35px;
@@ -233,6 +234,14 @@ body .widget-title, body .magazinenp-title, body .site-footer .widget-title {
 	padding-left: 10px;
 }
 
+body.title-style1 .magazinenp-title, body.title-style1 .widget-title {
+	padding-right: 10px;
+	border-left: 0;
+	position: relative;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
 body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after {
 	margin-left: unset;
 	margin-right: 15px;
@@ -402,10 +411,6 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 	margin-right: 0;
 }
 
-.post-slider .post-slider-header {
-	padding-right: 0;
-	padding-left: 70px;
-}
 
 .post-slider .owl-nav {
 	right: auto;
@@ -431,7 +436,7 @@ body.title-style4 .magazinenp-title:after, body.title-style4 .widget-title:after
 .magazinenp-title,
 .widget-title {
 	border-left: none;
-	border-right: 4px solid #c80000;
+	border-right: 4px solid #1151d3;
 	padding-left: 0;
 	padding-right: 10px;
 	text-align: right;
