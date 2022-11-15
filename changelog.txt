@@ -1,3 +1,5 @@
+= 1.1.13 |  2022/11/15 =
+- Fixed - WordPress 6.1 compatibility
 = 1.1.12 |  2022/08/18 =
 - Fixed - RTL issue on title design fixed
 = 1.1.11 |  2022/07/15 =
