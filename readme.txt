@@ -1,11 +1,11 @@
 === MagazineNP ===
-Contributors: mantrabrain
+Contributors: MantraBrain
 Tags: blog, news, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu,  featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.1
-Version: 1.1.14
-Stable tag: 1.1.14
+Tested up to: 6.3
+Version: 1.1.15
+Stable tag: 1.1.15
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -111,3 +111,8 @@ Images for theme screenshot
 Other Images, (C) mantrabrain
 Source: No source required, this resources were created by me from scratch -> ( theme author ) @ mantrabrain
 License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
+
+== Changelog ==
+
+= 1.1.15 |  2023/09/15 =
+- Fixed - WordPress version tested
