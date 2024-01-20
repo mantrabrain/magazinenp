@@ -11,13 +11,13 @@ class MagazineNP_Assets
 	public function scripts()
 	{
 
-		wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.min.css', array(), '4.0.0');
+		wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.min.css', array(), '5.3.2');
 		wp_enqueue_style('font-awesome-style', get_template_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.css');
 
 		wp_register_style('magazinenp-google-fonts', '//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
 		wp_enqueue_style('magazinenp-google-fonts');
 
-		wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.min.js', array('jquery'), '4.0.0', true);
+		wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.min.js', array('jquery'), '5.3.2', true);
 
 		// Scripts for Slider
 		wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/assets/vendor/owl-carousel/owl.carousel.min.css', array(), '2.3.4');

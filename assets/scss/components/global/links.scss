@@ -1,7 +1,12 @@
 a,
 a:hover {
-  color: $primary_color;
+	color: $primary_color;
 }
-a:focus {
-  outline: none;
+
+a {
+	text-decoration: none;
+
+	&:focus {
+		outline: none;
+	}
 }
