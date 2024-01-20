@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Mantrabrain
+ * @package MantraBrain
  * @subpackage MagazineNP
  * @since 1.0.0
  */

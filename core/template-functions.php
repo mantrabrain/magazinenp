@@ -4,7 +4,7 @@ function magazinenp_author_link()
 {
 	return sprintf(
 		esc_html__('Theme by %s', 'magazinenp'),
-		'<a href="' . esc_url('https://mantrabrain.com') . '" target="_blank" title="' . esc_attr__('Mantrabrain', 'magazinenp') . '" >' . esc_html__('Mantrabrain', 'magazinenp') . '</a>'
+		'<a href="' . esc_url('https://mantrabrain.com') . '" target="_blank" title="' . esc_attr__('MantraBrain', 'magazinenp') . '" >' . esc_html__('MantraBrain', 'magazinenp') . '</a>'
 	);
 }
 

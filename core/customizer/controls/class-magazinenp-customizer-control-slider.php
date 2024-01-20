@@ -9,7 +9,7 @@ if (!class_exists('WP_Customize_Control'))
 /**
  * Slider Custom Control
  *
- * @author Mantrabrain <http://mantrabrain.com>
+ * @author MantraBrain <http://mantrabrain.com>
  * @license http://www.gnu.org/licenses/gpl-2.0.html
  * @link https://github.com/mantrabrain
  */
