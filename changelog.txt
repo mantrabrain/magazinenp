@@ -1,3 +1,5 @@
+= 1.1.16 |  2023/11/25 =
+- Fixed - WordPress 6.4 version tested
 = 1.1.15 |  2023/09/15 =
 - Fixed - WordPress version tested
 = 1.1.14 |  2023/02/19 =

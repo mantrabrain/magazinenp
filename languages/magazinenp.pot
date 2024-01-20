@@ -1,14 +1,14 @@
-# <!=Copyright (C) 2023 MantraBrain
+# <!=Copyright (C) 2024 MantraBrain
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
 "Project-Id-Version: MagazineNP 1.1.16\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2023-11-25 13:38:57+00:00\n"
+"POT-Creation-Date: 2024-01-20 04:29:47+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -1053,8 +1053,8 @@ msgstr ""
 msgid "Theme by %s"
 msgstr ""
 
-#: core/template-functions.php:7
-msgid "Mantrabrain"
+#. Author of the plugin/theme
+msgid "MantraBrain"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:328
@@ -1692,10 +1692,6 @@ msgid ""
 "Support #Elementor Compatible #Translation Ready #Fully Responsive "
 "#Extendible with premium plugin etc. For more details go to "
 "https://mantrabrain.com/downloads/magazinenp-wordpress-theme/"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "MantraBrain"
 msgstr ""
 
 #. Author URI of the plugin/theme

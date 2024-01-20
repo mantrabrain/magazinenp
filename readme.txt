@@ -4,8 +4,8 @@ Tags: blog, news, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.4
-Version: 1.1.16
-Stable tag: 1.1.16
+Version: 1.2
+Stable tag: 1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -114,5 +114,5 @@ License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 1.1.16 |  2023/11/25 =
-- Fixed - WordPress 6.4 version tested
+= 1.2 |  2024/01/20 =
+- Fixed - PHP Deprication issue fixed
