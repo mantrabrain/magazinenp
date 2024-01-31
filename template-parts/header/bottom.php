@@ -21,8 +21,8 @@ $class.= $bottom_header_border_status ?: ' no-border';
 
 				<?php } ?>
 
-				<button class="navbar-toggler menu-toggle collapsed" type="button" data-toggle="collapse"
-						data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+				<button class="navbar-toggler menu-toggle collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
 						aria-label="<?php esc_attr_e('Toggle navigation', 'magazinenp'); ?>"></button>
 				<?php
 				$show_search_icon = (boolean)magazinenp_get_option('bottom_header_show_search_icon');
