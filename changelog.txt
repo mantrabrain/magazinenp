@@ -1,3 +1,6 @@
+= 1.2.2 |  2024/01/31 =
+- Fixed - Home Icon Line Height issue fixed
+- Fixed - Main Navigation toggle not working on mobile devices
 = 1.2.1 |  2024/01/20 =
 - Fixed - Underline issue fixed
 = 1.1.16 |  2023/11/25 =
