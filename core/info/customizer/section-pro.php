@@ -25,7 +25,7 @@ class MagazineNP_Section_Pro_Customizer
 				'magazinenp-pro',
 				array(
 					'pro_text' => esc_html__('Get More Features in MagazineNP Pro', 'magazinenp'),
-					'pro_url' => 'https://mantrabrain.com/downloads/magazinenp-pro/?utm_source=magazinenp-customizer&utm_medium=view-pro&utm_campaign=upgrade',
+					'pro_url' => 'https://mantrabrain.com/themes/magazinenp-pro/?utm_source=magazinenp-customizer&utm_medium=view-pro&utm_campaign=upgrade',
 					'priority' => 0
 				)
 			)

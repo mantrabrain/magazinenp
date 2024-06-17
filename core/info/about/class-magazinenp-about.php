@@ -258,7 +258,7 @@ class MagazineNP_About
 
 			echo '</li>';
 		}
-		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/downloads/magazinenp-wordpress-theme/?ref=magazinenppaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about MagazineNP theme &#187;', 'magazinenp') . '</a>';
+		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/themes/magazinenp/?ref=magazinenppaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about MagazineNP theme &#187;', 'magazinenp') . '</a>';
 		echo '</li>';
 
 		echo '</ul>';
@@ -753,12 +753,12 @@ class MagazineNP_About
 				if (!class_exists('MagazineNP_Pro')) {
 					?>
 					<a class="mb-about-upgrade" target="_blank"
-					   href="https://mantrabrain.com/downloads/magazinenp-pro/?ref=themepanel-upgradenow">
+					   href="https://mantrabrain.com/themes/magazinenp-pro/?ref=themepanel-upgradenow">
 						<?php _e('Upgrade Now &rarr;', 'magazinenp'); ?>
 					</a>
 				<?php } else { ?>
 					<a style="color:lime;text-decoration:none;" class="mb-about-upgrade" target="_blank"
-					   href="https://mantrabrain.com/downloads/magazinenp-pro/?ref=themepanel-magazinenppro-activated">
+					   href="https://mantrabrain.com/themes/magazinenp-pro/?ref=themepanel-magazinenppro-activated">
 						<?php _e('Thank you for using MagazineNP Pro', 'magazinenp'); ?>
 					</a>
 				<?php } ?>

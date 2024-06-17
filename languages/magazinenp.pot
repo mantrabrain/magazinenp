@@ -1674,7 +1674,7 @@ msgid "Comments Off"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://mantrabrain.com/downloads/magazinenp-wordpress-theme/"
+msgid "https://mantrabrain.com/themes/magazinenp/"
 msgstr ""
 
 #. Description of the plugin/theme

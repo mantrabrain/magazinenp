@@ -4,14 +4,14 @@ Tags: blog, news, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.5
-Version: 1.2.4
-Stable tag: 1.2.4
+Version: 1.2.5
+Stable tag: 1.2.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-MagazineNP is Clean, Elegant, SEO Friendly, Regularly Updated modern WordPress Magazine Theme.  It can be used for Blog, Magazine, news publisher, online news, newsportal  or any kind of news publishing & blogging sites. This is widget based WordPress Theme with clean & elegent feature slider. This theme is compatible with the WordPress default editor Gutenberg and most popular WordPress page builder plugin elementor and ecommerce plugin WooCommerce. It is Right to Left language (RTL) ready theme. Setting up magazine style home page is really easy on MagazineNP theme. Some of the other features: #Widget Based Theme #Easy Homepage setup #Clean Customizer #Live Preview #SEO Ready #RTL Support #WooCommerce Support #Elementor Compatible #Translation Ready #Fully Responsive #Extendible with premium plugin etc. For more details go to https://mantrabrain.com/downloads/magazinenp-wordpress-theme/
+MagazineNP is Clean, Elegant, SEO Friendly, Regularly Updated modern WordPress Magazine Theme.  It can be used for Blog, Magazine, news publisher, online news, newsportal  or any kind of news publishing & blogging sites. This is widget based WordPress Theme with clean & elegent feature slider. This theme is compatible with the WordPress default editor Gutenberg and most popular WordPress page builder plugin elementor and ecommerce plugin WooCommerce. It is Right to Left language (RTL) ready theme. Setting up magazine style home page is really easy on MagazineNP theme. Some of the other features: #Widget Based Theme #Easy Homepage setup #Clean Customizer #Live Preview #SEO Ready #RTL Support #WooCommerce Support #Elementor Compatible #Translation Ready #Fully Responsive #Extendible with premium plugin etc. For more details go to https://mantrabrain.com/themes/magazinenp/
 
 == Installation ==
 
@@ -114,5 +114,5 @@ License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 1.2.4 |  2024/04/18 =
-- Fixed - WordPress version compatibility check
+= 1.2.5 |  2024/06/17 =
+- Fixed - WordPress version compatibility check & URLs update
