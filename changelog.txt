@@ -1,6 +1,5 @@
-= 1.2.7 |  2024/09/16 =
+= 1.2.6 |  2024/07/15 =
 - Fixed - WordPress version compatibility checked
-- Fixed - Required paramter issue resolved
 = 1.2.5 |  2024/06/17 =
 - Fixed - WordPress version compatibility check & URLs update
 = 1.2.4 |  2024/04/18 =

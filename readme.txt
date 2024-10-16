@@ -113,6 +113,6 @@ Source: No source required, this resources were created by me from scratch -> ( 
 License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
-
-= 1.2.6 |  2024/07/15 =
+= 1.2.7 |  2024/09/16 =
 - Fixed - WordPress version compatibility checked
+- Fixed - Required paramter issue resolved
