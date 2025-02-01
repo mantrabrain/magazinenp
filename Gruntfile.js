@@ -1,5 +1,5 @@
 /* jshint node:true */
-const sass = require('node-sass');
+const sass = require('sass');
 
 module.exports = function (grunt) {
     'use strict';
