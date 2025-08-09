@@ -3,9 +3,9 @@ Contributors: MantraBrain
 Tags: blog, news, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu,  featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.7
-Version: 1.2.8
-Stable tag: 1.2.8
+Tested up to: 6.8
+Version: 1.2.9
+Stable tag: 1.2.9
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -113,5 +113,5 @@ Source: No source required, this resources were created by me from scratch -> ( 
 License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
-= 1.2.8 |  2025/02/01 =
+= 1.2.9 |  2025/08/09 =
 - Fixed - WordPress version compatibility checked
