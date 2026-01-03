@@ -575,7 +575,7 @@ if (!function_exists('magazinenp_social_profiles_config')) :
 			),
 			'twitter' => array(
 				'title' => __('X (Formerly Twitter)', 'magazinenp'),
-				'icon' => 'fab fa-twitter',
+				'icon' => 'fab fa-x',
 				'default' => 'x.com'
 
 

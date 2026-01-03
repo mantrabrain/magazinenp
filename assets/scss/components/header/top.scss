@@ -50,14 +50,18 @@
 .mnp-top-header .mnp-social-profiles ul {
   margin-left: 0;
   margin-right: 0;
+	height:100%;
 }
 .mnp-top-header .mnp-social-profiles ul li {
   padding: 0 0 0 1px;
+	height:100%;
+
 }
 .mnp-top-header .mnp-social-profiles ul li a {
   font-size: calc(13px + 2px);
   position: relative;
-  padding: 9px 12px;
+	width:30px;
+	line-height:38px;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.17);
   opacity: 0.8;
