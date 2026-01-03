@@ -17,12 +17,11 @@ final class MagazineNP_Core
 	public function __construct()
 	{
 		$this->hooks();
-		$this->includes();
-
 	}
 
 	public function hooks()
 	{
+		add_action('after_setup_theme', array($this, 'includes'), 0);
 		add_action('after_setup_theme', array($this, 'setup'));
 		add_action('after_setup_theme', array($this, 'content_width'), 0);
 		add_filter('excerpt_more', array($this, 'excerpt_more'));
