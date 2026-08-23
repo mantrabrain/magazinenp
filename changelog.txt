@@ -1,4 +1,19 @@
 == Changelog ==
+= 1.2.12 |  2026/08/23 =
+- Update - Tested and verified against WordPress 7.1
+- Update - Added the "Requires at least" header to style.css
+
+= 1.2.11 |  2026/04/01 =
+- New - Added promotional notice system for MagazineNP Pro upgrade
+- New - Elegant 20% discount notice with smart dismissal logic
+- New - Shows on first visit, hides for 15 days after dismissal, permanent after second dismissal
+
+= 1.2.10 |  2026/01/03 =
+- Fixed - WordPress version compatibility checked
+- Fixed - Minor design issue fixed
+- Update - FontAwesome update to it's latest version 7
+- Fixed - Other minor design tweak and textdomain warning fixed.
+
 = 1.2.9 |  2025/08/09 =
 - Fixed - WordPress version compatibility checked
 = 1.2.8 |  2025/02/01 =

@@ -3,9 +3,9 @@ Contributors: MantraBrain
 Tags: blog, news, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu,  featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.9
-Version: 1.2.11
-Stable tag: 1.2.11
+Tested up to: 7.1
+Version: 1.2.12
+Stable tag: 1.2.12
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -113,6 +113,10 @@ Source: No source required, this resources were created by me from scratch -> ( 
 License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
+= 1.2.12 |  2026/08/23 =
+- Update - Tested and verified against WordPress 7.1. Every WordPress function the theme calls was cross-checked against the 7.1 codebase; none are deprecated or removed.
+- Update - Added the "Requires at least" header to style.css, which previously only appeared in readme.txt.
+
 = 1.2.11 |  2026/04/01 =
 - New - Added promotional notice system for MagazineNP Pro upgrade
 - New - Elegant 20% discount notice with smart dismissal logic
