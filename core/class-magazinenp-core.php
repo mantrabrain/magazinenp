@@ -174,6 +174,11 @@ final class MagazineNP_Core
 		require MAGAZINENP_THEME_DIR . '/core/class-magazinenp-widgets.php';
 		require MAGAZINENP_THEME_DIR . '/core/theme-update/class-magazinenp-theme-update.php';
 
+		/**
+		 * Promotional Notice
+		 */
+		require MAGAZINENP_THEME_DIR . '/core/class-magazinenp-promotional-notice.php';
+
 
 		if (is_admin()) {
 			// Meta boxes.
